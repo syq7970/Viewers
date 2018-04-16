@@ -1,0 +1,151 @@
+.theme-icon-crickets,
+.theme-icon-tide,
+.theme-icon-tigerlily,
+.theme-icon-quartz,
+.theme-icon-overcast,
+.theme-icon-mint,
+.theme-icon-honeycomb {
+  display: inline-block;
+  background: url("/packages/ohif_design/assets/theme-icons.png") no-repeat;
+  overflow: hidden;
+  text-indent: -9999px;
+  text-align: left;
+}
+.theme-icon-crickets {
+  background-position: 0px 0px;
+  width: 64px;
+  height: 56px;
+}
+.theme-icon-tide {
+  background-position: 0px -56px;
+  width: 64px;
+  height: 54px;
+}
+.theme-icon-tigerlily {
+  background-position: 0px -110px;
+  width: 62px;
+  height: 61px;
+}
+.theme-icon-quartz {
+  background-position: 0px -171px;
+  width: 59px;
+  height: 64px;
+}
+.theme-icon-overcast {
+  background-position: 0px -235px;
+  width: 58px;
+  height: 37px;
+}
+.theme-icon-mint {
+  background-position: 0px -272px;
+  width: 57px;
+  height: 61px;
+}
+.theme-icon-honeycomb {
+  background-position: 0px -333px;
+  width: 50px;
+  height: 58px;
+}
+.annotationDialog {
+  z-index: 1000;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  overflow: hidden;
+  padding: 10px;
+  width: 300px;
+  height: 140px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+}
+.annotationDialog {
+  border: 1px solid rgba(68,98,111,0.95);
+}
+body.theme-tide .annotationDialog {
+  border: 1px solid rgba(68,98,111,0.95);
+}
+body.theme-tigerlily .annotationDialog {
+  border: 1px solid rgba(135,90,134,0.95);
+}
+body.theme-crickets .annotationDialog {
+  border: 1px solid rgba(83,123,118,0.95);
+}
+body.theme-honeycomb .annotationDialog {
+  border: 1px solid rgba(98,51,55,0.95);
+}
+body.theme-mint .annotationDialog {
+  border: 1px solid rgba(33,69,41,0.95);
+}
+body.theme-overcast .annotationDialog {
+  border: 1px solid rgba(64,64,64,0.95);
+}
+body.theme-quartz .annotationDialog {
+  border: 1px solid rgba(136,91,134,0.95);
+}
+.annotationDialog {
+  background: rgba(20,25,30,0.95);
+}
+body.theme-tide .annotationDialog {
+  background: rgba(20,25,30,0.95);
+}
+body.theme-tigerlily .annotationDialog {
+  background: rgba(20,25,30,0.95);
+}
+body.theme-crickets .annotationDialog {
+  background: rgba(20,25,30,0.95);
+}
+body.theme-honeycomb .annotationDialog {
+  background: rgba(20,25,30,0.95);
+}
+body.theme-mint .annotationDialog {
+  background: rgba(20,25,30,0.95);
+}
+body.theme-overcast .annotationDialog {
+  background: rgba(20,25,30,0.95);
+}
+body.theme-quartz .annotationDialog {
+  background: rgba(20,25,30,0.95);
+}
+.annotationDialog {
+  color: #91b9cd;
+}
+body.theme-tide .annotationDialog {
+  color: #91b9cd;
+}
+body.theme-tigerlily .annotationDialog {
+  color: #9ccdf8;
+}
+body.theme-crickets .annotationDialog {
+  color: #8be7b5;
+}
+body.theme-honeycomb .annotationDialog {
+  color: #fab797;
+}
+body.theme-mint .annotationDialog {
+  color: #a7e9b3;
+}
+body.theme-overcast .annotationDialog {
+  color: #73f2fc;
+}
+body.theme-quartz .annotationDialog {
+  color: #d7e8fe;
+}
+.annotationDialog h5,
+.annotationDialog label {
+  font-weight: 400;
+}
+.annotationDialog .annotationTextInputOptions {
+  padding: 10px 0;
+}
+.annotationDialog .annotationTextInput {
+  margin-left: 5px;
+}
+.annotationDialog .annotationDialogConfirm {
+  float: right;
+}

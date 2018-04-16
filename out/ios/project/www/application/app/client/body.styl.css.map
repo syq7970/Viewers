@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/body.styl"],"names":[],"mappings":"AAAA;EACE,OAAO,KAAP;EACA,QAAQ,KAAR;;AAEF;EACE,OAAO,KAAP;EACA,QAAQ,KAAR;EACA,UAAU,OAAV;EACA,UAAU,MAAV","sourcesContent":["html\n  width: 100%\n  height: 100%\n\nbody\n  width: 100%\n  height: 100%\n  overflow: hidden\n  position: fixed"]}

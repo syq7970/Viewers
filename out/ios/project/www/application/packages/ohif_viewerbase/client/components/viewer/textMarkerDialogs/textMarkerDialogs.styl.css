@@ -1,0 +1,171 @@
+.textMarkerDialog {
+  z-index: 1000;
+  width: 260px;
+  position: absolute;
+  top: auto;
+  left: auto;
+  bottom: 3px;
+  right: 3px;
+  margin: auto;
+  padding: 0.5em;
+  background-image: linear-gradient(#2e608d, #23557f);
+  box-sizing: border-box;
+  border: 1px #000 solid;
+  border-radius: 5px;
+  height: 81px;
+  max-height: 81px;
+}
+.textMarkerDialog h5 {
+  color: #d1edfb;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 600;
+  cursor: default;
+}
+.textMarkerDialog .handle {
+  width: 40px;
+  float: left;
+  height: 22px;
+  display: block;
+  margin-right: 10px;
+  position: relative;
+  margin-top: 1px;
+  margin-left: 1px;
+}
+.textMarkerDialog #startFrom {
+  margin-right: 10px;
+}
+.textMarkerDialog #clearLabels {
+  margin-left: 10px;
+  float: right;
+}
+.textMarkerDialog .optionBox {
+  color: #d1edfb;
+  margin-bottom: 5px;
+  float: left;
+}
+.textMarkerDialog .optionBox span.subLabel {
+  width: 50px;
+  display: block;
+  float: left;
+  line-height: 30px;
+}
+.textMarkerDialog .optionBox > label {
+  color: #d1edfb;
+  float: left;
+  min-width: 40px;
+  line-height: 24px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.textMarkerDialog .closeTextMarkerDialogs {
+  position: absolute;
+  top: 5px;
+  right: 4px;
+  padding: 5px;
+  cursor: pointer;
+}
+.textMarkerDialog .closeTextMarkerDialogs svg {
+  width: 19px;
+  height: 19px;
+  fill: #d1edfb;
+}
+.textMarkerDialog .closeTextMarkerDialogs:hover svg {
+  fill: #fff;
+}
+.textMarkerDialog .dialog.arrow {
+  left: 50%;
+  margin-left: -11px;
+  border-top-width: 0;
+  border-bottom-color: #999;
+  border-bottom-color: rgba(0,0,0,0.25);
+  border-width: 11px;
+  bottom: -10px;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #23557f;
+}
+.textMarkerDialog .dialog.arrow:after {
+  content: " ";
+  top: 1px;
+  margin-left: -10px;
+  border-top-width: 0;
+  border-bottom-color: #23557f;
+  border-width: 10px;
+}
+.textMarkerDialog button.btn-secondary {
+  background-color: #cfe3f5;
+  border: 1px solid #e5f3ff;
+  font-size: 12px !important;
+  color: #0d416d;
+}
+.textMarkerDialog button.btn-secondary:hover {
+  color: #0d416d;
+}
+#textMarkerRelabelDialog {
+  margin: 0;
+}
+#textMarkerRelabelDialog .relabelOptions {
+  padding: 15px 0px 0px 0px;
+}
+#textMarkerRelabelDialog .relabelSelect {
+  margin-left: 5px;
+}
+#textMarkerOptionsDialog .optionsDiv {
+  padding-top: 10px;
+}
+#textMarkerOptionsDialog[open='open'] ~ #cineDialog[open='open'] {
+  bottom: 90px;
+}
+.relabelButtons {
+  text-align: right;
+}
+button.viewerBtn {
+  background-color: #5d9ace;
+  border: 1px solid #6eaee4;
+  font-size: 12px !important;
+  color: #fff;
+  line-height: 21px;
+}
+button.viewerBtn:hover {
+  color: #fff;
+}
+.iconSwitch {
+  margin: 0px 5px;
+}
+.iconSwitch .btn span {
+  display: none;
+}
+.iconSwitch .btn .on {
+  display: none;
+}
+.iconSwitch .btn .off {
+  display: block;
+}
+.iconSwitch .btn.btn-link,
+.iconSwitch .btn.active,
+.iconSwitch .btn:active,
+.iconSwitch .btn:hover,
+.iconSwitch .btn:focus,
+.iconSwitch .btn.active:focus {
+  background-color: #225682;
+  border: 1px solid #7ab0de;
+  box-shadow: none;
+  padding: 1px 7px;
+  border-radius: 4px;
+  color: #d1edfb;
+  box-shadow: none;
+  outline: none;
+}
+.iconSwitch .btn:hover {
+  color: #fff;
+}
+.iconSwitch .btn.active .on {
+  display: block;
+}
+.iconSwitch .btn.active .off {
+  display: none;
+}

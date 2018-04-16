@@ -1,0 +1,6 @@
+.modal.unsavedChangesDialog .modal-dialog {
+  width: 400px;
+}
+.modal.unsavedChangesDialog .modal-dialog .modal-footer {
+  border-top: 0 none;
+}

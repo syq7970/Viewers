@@ -1,0 +1,187 @@
+.theme-icon-crickets,
+.theme-icon-tide,
+.theme-icon-tigerlily,
+.theme-icon-quartz,
+.theme-icon-overcast,
+.theme-icon-mint,
+.theme-icon-honeycomb {
+  display: inline-block;
+  background: url("/packages/ohif_design/assets/theme-icons.png") no-repeat;
+  overflow: hidden;
+  text-indent: -9999px;
+  text-align: left;
+}
+.theme-icon-crickets {
+  background-position: 0px 0px;
+  width: 64px;
+  height: 56px;
+}
+.theme-icon-tide {
+  background-position: 0px -56px;
+  width: 64px;
+  height: 54px;
+}
+.theme-icon-tigerlily {
+  background-position: 0px -110px;
+  width: 62px;
+  height: 61px;
+}
+.theme-icon-quartz {
+  background-position: 0px -171px;
+  width: 59px;
+  height: 64px;
+}
+.theme-icon-overcast {
+  background-position: 0px -235px;
+  width: 58px;
+  height: 37px;
+}
+.theme-icon-mint {
+  background-position: 0px -272px;
+  width: 57px;
+  height: 61px;
+}
+.theme-icon-honeycomb {
+  background-position: 0px -333px;
+  width: 50px;
+  height: 58px;
+}
+span.select2.select2-container {
+  font-weight: normal;
+}
+span.select2.select2-container span.select2-selection:hover span.select2-selection__arrow,
+span.select2.select2-container span.select2-selection:focus span.select2-selection__arrow {
+  background-color: #a6a6a6;
+}
+span.select2.select2-container span.select2-selection {
+  border: 0;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+}
+span.select2.select2-container span.select2-selection,
+span.select2.select2-container span.select2-selection span.select2-selection__rendered,
+span.select2.select2-container span.select2-selection span.select2-selection__arrow {
+  height: 30px;
+}
+span.select2.select2-container span.select2-selection__rendered {
+  line-height: 34px;
+  padding-left: 11px;
+}
+span.select2.select2-container span.select2-selection__arrow {
+  background-color: #c3c3c3;
+  -webkit-border-top-right-radius: 2px;
+  -moz-border-top-right-radius: 2px;
+  -ms-border-top-right-radius: 2px;
+  -o-border-top-right-radius: 2px;
+  border-top-right-radius: 2px;
+  -webkit-border-bottom-right-radius: 2px;
+  -moz-border-bottom-right-radius: 2px;
+  -ms-border-bottom-right-radius: 2px;
+  -o-border-bottom-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  right: 0;
+  top: 0;
+  -webkit-transition: background-color 0.3s ease;
+  -moz-transition: background-color 0.3s ease;
+  -ms-transition: background-color 0.3s ease;
+  -o-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+  width: 20px;
+}
+span.select2.select2-container span.select2-selection__arrow {
+  border-left: 1px solid #000;
+}
+body.theme-tide span.select2.select2-container span.select2-selection__arrow {
+  border-left: 1px solid #000;
+}
+body.theme-tigerlily span.select2.select2-container span.select2-selection__arrow {
+  border-left: 1px solid #000;
+}
+body.theme-crickets span.select2.select2-container span.select2-selection__arrow {
+  border-left: 1px solid #000;
+}
+body.theme-honeycomb span.select2.select2-container span.select2-selection__arrow {
+  border-left: 1px solid #000;
+}
+body.theme-mint span.select2.select2-container span.select2-selection__arrow {
+  border-left: 1px solid #000;
+}
+body.theme-overcast span.select2.select2-container span.select2-selection__arrow {
+  border-left: 1px solid #000;
+}
+body.theme-quartz span.select2.select2-container span.select2-selection__arrow {
+  border-left: 1px solid #000;
+}
+span.select2.select2-container span.select2-selection__arrow b {
+  display: none;
+}
+span.select2.select2-container span.select2-selection--multiple {
+  background-color: #b6b6b6;
+  min-height: 30px;
+}
+span.select2.select2-container span.select2-selection--multiple input.select2-search__field {
+  color: #3e3e3e;
+}
+span.select2.select2-container span.select2-selection--multiple input.select2-search__field::-webkit-input-placeholder {
+  color: #3e3e3e;
+}
+span.select2.select2-container span.select2-selection--multiple input.select2-search__field:-moz-placeholder {
+  color: #3e3e3e;
+}
+span.select2.select2-container span.select2-selection--multiple input.select2-search__field::-moz-placeholder {
+  color: #3e3e3e;
+}
+span.select2.select2-container span.select2-selection--multiple input.select2-search__field:-ms-input-placeholder {
+  color: #3e3e3e;
+}
+span.select2.select2-container span.select2-selection--multiple li.select2-selection__choice {
+  background-color: #fff;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  color: #3e3e3e;
+  font-size: 12px;
+  line-height: 22px;
+  margin-top: 3px;
+}
+span.select2.select2-container span.select2-selection--multiple li.select2-selection__choice {
+  border-color: #263340;
+}
+body.theme-tide span.select2.select2-container span.select2-selection--multiple li.select2-selection__choice {
+  border-color: #263340;
+}
+body.theme-tigerlily span.select2.select2-container span.select2-selection--multiple li.select2-selection__choice {
+  border-color: #263340;
+}
+body.theme-crickets span.select2.select2-container span.select2-selection--multiple li.select2-selection__choice {
+  border-color: #263340;
+}
+body.theme-honeycomb span.select2.select2-container span.select2-selection--multiple li.select2-selection__choice {
+  border-color: #263340;
+}
+body.theme-mint span.select2.select2-container span.select2-selection--multiple li.select2-selection__choice {
+  border-color: #263340;
+}
+body.theme-overcast span.select2.select2-container span.select2-selection--multiple li.select2-selection__choice {
+  border-color: #263340;
+}
+body.theme-quartz span.select2.select2-container span.select2-selection--multiple li.select2-selection__choice {
+  border-color: #263340;
+}
+span.select2.select2-container span.select2-selection--multiple span.select2-selection__choice__remove {
+  color: #676767;
+  float: right;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 20px;
+  margin-left: 6px;
+  margin-right: 0;
+}
+span.select2.select2-container span.select2-selection--multiple span.select2-selection__clear {
+  display: none;
+}

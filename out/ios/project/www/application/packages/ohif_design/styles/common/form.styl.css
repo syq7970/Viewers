@@ -1,0 +1,3386 @@
+.theme-icon-crickets,
+.theme-icon-tide,
+.theme-icon-tigerlily,
+.theme-icon-quartz,
+.theme-icon-overcast,
+.theme-icon-mint,
+.theme-icon-honeycomb {
+  display: inline-block;
+  background: url("/packages/ohif_design/assets/theme-icons.png") no-repeat;
+  overflow: hidden;
+  text-indent: -9999px;
+  text-align: left;
+}
+.theme-icon-crickets {
+  background-position: 0px 0px;
+  width: 64px;
+  height: 56px;
+}
+.theme-icon-tide {
+  background-position: 0px -56px;
+  width: 64px;
+  height: 54px;
+}
+.theme-icon-tigerlily {
+  background-position: 0px -110px;
+  width: 62px;
+  height: 61px;
+}
+.theme-icon-quartz {
+  background-position: 0px -171px;
+  width: 59px;
+  height: 64px;
+}
+.theme-icon-overcast {
+  background-position: 0px -235px;
+  width: 58px;
+  height: 37px;
+}
+.theme-icon-mint {
+  background-position: 0px -272px;
+  width: 57px;
+  height: 61px;
+}
+.theme-icon-honeycomb {
+  background-position: 0px -333px;
+  width: 50px;
+  height: 58px;
+}
+label.wrapperLabel {
+  cursor: pointer;
+}
+label.wrapperLabel:not(.checkboxLabel) {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+label.wrapperLabel:not(.checkboxLabel) .wrapperText {
+  display: block;
+  order: -1;
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  -ms-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+.form-themed .btn[disabled],
+.form-themed input[type=text][disabled],
+.form-themed input[type=password][disabled],
+.form-themed input[type=number][disabled],
+.form-themed .btn.disabled,
+.form-themed input[type=text].disabled,
+.form-themed input[type=password].disabled,
+.form-themed input[type=number].disabled,
+.form-themed .btn[disabled]:hover,
+.form-themed input[type=text][disabled]:hover,
+.form-themed input[type=password][disabled]:hover,
+.form-themed input[type=number][disabled]:hover,
+.form-themed .btn.disabled:hover,
+.form-themed input[type=text].disabled:hover,
+.form-themed input[type=password].disabled:hover,
+.form-themed input[type=number].disabled:hover,
+.form-themed .btn[disabled]:active,
+.form-themed input[type=text][disabled]:active,
+.form-themed input[type=password][disabled]:active,
+.form-themed input[type=number][disabled]:active,
+.form-themed .btn.disabled:active,
+.form-themed input[type=text].disabled:active,
+.form-themed input[type=password].disabled:active,
+.form-themed input[type=number].disabled:active {
+  background-color: #151a1f;
+}
+body.theme-tide .form-themed .btn[disabled] {
+  background-color: #151a1f;
+}
+body.theme-tide .form-themed input[type=text][disabled] {
+  background-color: #151a1f;
+}
+body.theme-tide .form-themed input[type=password][disabled] {
+  background-color: #151a1f;
+}
+body.theme-tide .form-themed input[type=number][disabled] {
+  background-color: #151a1f;
+}
+body.theme-tide .form-themed .btn.disabled {
+  background-color: #151a1f;
+}
+body.theme-tide .form-themed input[type=text].disabled {
+  background-color: #151a1f;
+}
+body.theme-tide .form-themed input[type=password].disabled {
+  background-color: #151a1f;
+}
+body.theme-tide .form-themed input[type=number].disabled {
+  background-color: #151a1f;
+}
+body.theme-tide .form-themed .btn[disabled]:hover {
+  background-color: #151a1f;
+}
+body.theme-tide .form-themed input[type=text][disabled]:hover {
+  background-color: #151a1f;
+}
+body.theme-tide .form-themed input[type=password][disabled]:hover {
+  background-color: #151a1f;
+}
+body.theme-tide .form-themed input[type=number][disabled]:hover {
+  background-color: #151a1f;
+}
+body.theme-tide .form-themed .btn.disabled:hover {
+  background-color: #151a1f;
+}
+body.theme-tide .form-themed input[type=text].disabled:hover {
+  background-color: #151a1f;
+}
+body.theme-tide .form-themed input[type=password].disabled:hover {
+  background-color: #151a1f;
+}
+body.theme-tide .form-themed input[type=number].disabled:hover {
+  background-color: #151a1f;
+}
+body.theme-tide .form-themed .btn[disabled]:active {
+  background-color: #151a1f;
+}
+body.theme-tide .form-themed input[type=text][disabled]:active {
+  background-color: #151a1f;
+}
+body.theme-tide .form-themed input[type=password][disabled]:active {
+  background-color: #151a1f;
+}
+body.theme-tide .form-themed input[type=number][disabled]:active {
+  background-color: #151a1f;
+}
+body.theme-tide .form-themed .btn.disabled:active {
+  background-color: #151a1f;
+}
+body.theme-tide .form-themed input[type=text].disabled:active {
+  background-color: #151a1f;
+}
+body.theme-tide .form-themed input[type=password].disabled:active {
+  background-color: #151a1f;
+}
+body.theme-tide .form-themed input[type=number].disabled:active {
+  background-color: #151a1f;
+}
+body.theme-tigerlily .form-themed .btn[disabled] {
+  background-color: #151a1f;
+}
+body.theme-tigerlily .form-themed input[type=text][disabled] {
+  background-color: #151a1f;
+}
+body.theme-tigerlily .form-themed input[type=password][disabled] {
+  background-color: #151a1f;
+}
+body.theme-tigerlily .form-themed input[type=number][disabled] {
+  background-color: #151a1f;
+}
+body.theme-tigerlily .form-themed .btn.disabled {
+  background-color: #151a1f;
+}
+body.theme-tigerlily .form-themed input[type=text].disabled {
+  background-color: #151a1f;
+}
+body.theme-tigerlily .form-themed input[type=password].disabled {
+  background-color: #151a1f;
+}
+body.theme-tigerlily .form-themed input[type=number].disabled {
+  background-color: #151a1f;
+}
+body.theme-tigerlily .form-themed .btn[disabled]:hover {
+  background-color: #151a1f;
+}
+body.theme-tigerlily .form-themed input[type=text][disabled]:hover {
+  background-color: #151a1f;
+}
+body.theme-tigerlily .form-themed input[type=password][disabled]:hover {
+  background-color: #151a1f;
+}
+body.theme-tigerlily .form-themed input[type=number][disabled]:hover {
+  background-color: #151a1f;
+}
+body.theme-tigerlily .form-themed .btn.disabled:hover {
+  background-color: #151a1f;
+}
+body.theme-tigerlily .form-themed input[type=text].disabled:hover {
+  background-color: #151a1f;
+}
+body.theme-tigerlily .form-themed input[type=password].disabled:hover {
+  background-color: #151a1f;
+}
+body.theme-tigerlily .form-themed input[type=number].disabled:hover {
+  background-color: #151a1f;
+}
+body.theme-tigerlily .form-themed .btn[disabled]:active {
+  background-color: #151a1f;
+}
+body.theme-tigerlily .form-themed input[type=text][disabled]:active {
+  background-color: #151a1f;
+}
+body.theme-tigerlily .form-themed input[type=password][disabled]:active {
+  background-color: #151a1f;
+}
+body.theme-tigerlily .form-themed input[type=number][disabled]:active {
+  background-color: #151a1f;
+}
+body.theme-tigerlily .form-themed .btn.disabled:active {
+  background-color: #151a1f;
+}
+body.theme-tigerlily .form-themed input[type=text].disabled:active {
+  background-color: #151a1f;
+}
+body.theme-tigerlily .form-themed input[type=password].disabled:active {
+  background-color: #151a1f;
+}
+body.theme-tigerlily .form-themed input[type=number].disabled:active {
+  background-color: #151a1f;
+}
+body.theme-crickets .form-themed .btn[disabled] {
+  background-color: #231c1e;
+}
+body.theme-crickets .form-themed input[type=text][disabled] {
+  background-color: #231c1e;
+}
+body.theme-crickets .form-themed input[type=password][disabled] {
+  background-color: #231c1e;
+}
+body.theme-crickets .form-themed input[type=number][disabled] {
+  background-color: #231c1e;
+}
+body.theme-crickets .form-themed .btn.disabled {
+  background-color: #231c1e;
+}
+body.theme-crickets .form-themed input[type=text].disabled {
+  background-color: #231c1e;
+}
+body.theme-crickets .form-themed input[type=password].disabled {
+  background-color: #231c1e;
+}
+body.theme-crickets .form-themed input[type=number].disabled {
+  background-color: #231c1e;
+}
+body.theme-crickets .form-themed .btn[disabled]:hover {
+  background-color: #231c1e;
+}
+body.theme-crickets .form-themed input[type=text][disabled]:hover {
+  background-color: #231c1e;
+}
+body.theme-crickets .form-themed input[type=password][disabled]:hover {
+  background-color: #231c1e;
+}
+body.theme-crickets .form-themed input[type=number][disabled]:hover {
+  background-color: #231c1e;
+}
+body.theme-crickets .form-themed .btn.disabled:hover {
+  background-color: #231c1e;
+}
+body.theme-crickets .form-themed input[type=text].disabled:hover {
+  background-color: #231c1e;
+}
+body.theme-crickets .form-themed input[type=password].disabled:hover {
+  background-color: #231c1e;
+}
+body.theme-crickets .form-themed input[type=number].disabled:hover {
+  background-color: #231c1e;
+}
+body.theme-crickets .form-themed .btn[disabled]:active {
+  background-color: #231c1e;
+}
+body.theme-crickets .form-themed input[type=text][disabled]:active {
+  background-color: #231c1e;
+}
+body.theme-crickets .form-themed input[type=password][disabled]:active {
+  background-color: #231c1e;
+}
+body.theme-crickets .form-themed input[type=number][disabled]:active {
+  background-color: #231c1e;
+}
+body.theme-crickets .form-themed .btn.disabled:active {
+  background-color: #231c1e;
+}
+body.theme-crickets .form-themed input[type=text].disabled:active {
+  background-color: #231c1e;
+}
+body.theme-crickets .form-themed input[type=password].disabled:active {
+  background-color: #231c1e;
+}
+body.theme-crickets .form-themed input[type=number].disabled:active {
+  background-color: #231c1e;
+}
+body.theme-honeycomb .form-themed .btn[disabled] {
+  background-color: #18161a;
+}
+body.theme-honeycomb .form-themed input[type=text][disabled] {
+  background-color: #18161a;
+}
+body.theme-honeycomb .form-themed input[type=password][disabled] {
+  background-color: #18161a;
+}
+body.theme-honeycomb .form-themed input[type=number][disabled] {
+  background-color: #18161a;
+}
+body.theme-honeycomb .form-themed .btn.disabled {
+  background-color: #18161a;
+}
+body.theme-honeycomb .form-themed input[type=text].disabled {
+  background-color: #18161a;
+}
+body.theme-honeycomb .form-themed input[type=password].disabled {
+  background-color: #18161a;
+}
+body.theme-honeycomb .form-themed input[type=number].disabled {
+  background-color: #18161a;
+}
+body.theme-honeycomb .form-themed .btn[disabled]:hover {
+  background-color: #18161a;
+}
+body.theme-honeycomb .form-themed input[type=text][disabled]:hover {
+  background-color: #18161a;
+}
+body.theme-honeycomb .form-themed input[type=password][disabled]:hover {
+  background-color: #18161a;
+}
+body.theme-honeycomb .form-themed input[type=number][disabled]:hover {
+  background-color: #18161a;
+}
+body.theme-honeycomb .form-themed .btn.disabled:hover {
+  background-color: #18161a;
+}
+body.theme-honeycomb .form-themed input[type=text].disabled:hover {
+  background-color: #18161a;
+}
+body.theme-honeycomb .form-themed input[type=password].disabled:hover {
+  background-color: #18161a;
+}
+body.theme-honeycomb .form-themed input[type=number].disabled:hover {
+  background-color: #18161a;
+}
+body.theme-honeycomb .form-themed .btn[disabled]:active {
+  background-color: #18161a;
+}
+body.theme-honeycomb .form-themed input[type=text][disabled]:active {
+  background-color: #18161a;
+}
+body.theme-honeycomb .form-themed input[type=password][disabled]:active {
+  background-color: #18161a;
+}
+body.theme-honeycomb .form-themed input[type=number][disabled]:active {
+  background-color: #18161a;
+}
+body.theme-honeycomb .form-themed .btn.disabled:active {
+  background-color: #18161a;
+}
+body.theme-honeycomb .form-themed input[type=text].disabled:active {
+  background-color: #18161a;
+}
+body.theme-honeycomb .form-themed input[type=password].disabled:active {
+  background-color: #18161a;
+}
+body.theme-honeycomb .form-themed input[type=number].disabled:active {
+  background-color: #18161a;
+}
+body.theme-mint .form-themed .btn[disabled] {
+  background-color: #15191e;
+}
+body.theme-mint .form-themed input[type=text][disabled] {
+  background-color: #15191e;
+}
+body.theme-mint .form-themed input[type=password][disabled] {
+  background-color: #15191e;
+}
+body.theme-mint .form-themed input[type=number][disabled] {
+  background-color: #15191e;
+}
+body.theme-mint .form-themed .btn.disabled {
+  background-color: #15191e;
+}
+body.theme-mint .form-themed input[type=text].disabled {
+  background-color: #15191e;
+}
+body.theme-mint .form-themed input[type=password].disabled {
+  background-color: #15191e;
+}
+body.theme-mint .form-themed input[type=number].disabled {
+  background-color: #15191e;
+}
+body.theme-mint .form-themed .btn[disabled]:hover {
+  background-color: #15191e;
+}
+body.theme-mint .form-themed input[type=text][disabled]:hover {
+  background-color: #15191e;
+}
+body.theme-mint .form-themed input[type=password][disabled]:hover {
+  background-color: #15191e;
+}
+body.theme-mint .form-themed input[type=number][disabled]:hover {
+  background-color: #15191e;
+}
+body.theme-mint .form-themed .btn.disabled:hover {
+  background-color: #15191e;
+}
+body.theme-mint .form-themed input[type=text].disabled:hover {
+  background-color: #15191e;
+}
+body.theme-mint .form-themed input[type=password].disabled:hover {
+  background-color: #15191e;
+}
+body.theme-mint .form-themed input[type=number].disabled:hover {
+  background-color: #15191e;
+}
+body.theme-mint .form-themed .btn[disabled]:active {
+  background-color: #15191e;
+}
+body.theme-mint .form-themed input[type=text][disabled]:active {
+  background-color: #15191e;
+}
+body.theme-mint .form-themed input[type=password][disabled]:active {
+  background-color: #15191e;
+}
+body.theme-mint .form-themed input[type=number][disabled]:active {
+  background-color: #15191e;
+}
+body.theme-mint .form-themed .btn.disabled:active {
+  background-color: #15191e;
+}
+body.theme-mint .form-themed input[type=text].disabled:active {
+  background-color: #15191e;
+}
+body.theme-mint .form-themed input[type=password].disabled:active {
+  background-color: #15191e;
+}
+body.theme-mint .form-themed input[type=number].disabled:active {
+  background-color: #15191e;
+}
+body.theme-overcast .form-themed .btn[disabled] {
+  background-color: #15191e;
+}
+body.theme-overcast .form-themed input[type=text][disabled] {
+  background-color: #15191e;
+}
+body.theme-overcast .form-themed input[type=password][disabled] {
+  background-color: #15191e;
+}
+body.theme-overcast .form-themed input[type=number][disabled] {
+  background-color: #15191e;
+}
+body.theme-overcast .form-themed .btn.disabled {
+  background-color: #15191e;
+}
+body.theme-overcast .form-themed input[type=text].disabled {
+  background-color: #15191e;
+}
+body.theme-overcast .form-themed input[type=password].disabled {
+  background-color: #15191e;
+}
+body.theme-overcast .form-themed input[type=number].disabled {
+  background-color: #15191e;
+}
+body.theme-overcast .form-themed .btn[disabled]:hover {
+  background-color: #15191e;
+}
+body.theme-overcast .form-themed input[type=text][disabled]:hover {
+  background-color: #15191e;
+}
+body.theme-overcast .form-themed input[type=password][disabled]:hover {
+  background-color: #15191e;
+}
+body.theme-overcast .form-themed input[type=number][disabled]:hover {
+  background-color: #15191e;
+}
+body.theme-overcast .form-themed .btn.disabled:hover {
+  background-color: #15191e;
+}
+body.theme-overcast .form-themed input[type=text].disabled:hover {
+  background-color: #15191e;
+}
+body.theme-overcast .form-themed input[type=password].disabled:hover {
+  background-color: #15191e;
+}
+body.theme-overcast .form-themed input[type=number].disabled:hover {
+  background-color: #15191e;
+}
+body.theme-overcast .form-themed .btn[disabled]:active {
+  background-color: #15191e;
+}
+body.theme-overcast .form-themed input[type=text][disabled]:active {
+  background-color: #15191e;
+}
+body.theme-overcast .form-themed input[type=password][disabled]:active {
+  background-color: #15191e;
+}
+body.theme-overcast .form-themed input[type=number][disabled]:active {
+  background-color: #15191e;
+}
+body.theme-overcast .form-themed .btn.disabled:active {
+  background-color: #15191e;
+}
+body.theme-overcast .form-themed input[type=text].disabled:active {
+  background-color: #15191e;
+}
+body.theme-overcast .form-themed input[type=password].disabled:active {
+  background-color: #15191e;
+}
+body.theme-overcast .form-themed input[type=number].disabled:active {
+  background-color: #15191e;
+}
+body.theme-quartz .form-themed .btn[disabled] {
+  background-color: #151a1f;
+}
+body.theme-quartz .form-themed input[type=text][disabled] {
+  background-color: #151a1f;
+}
+body.theme-quartz .form-themed input[type=password][disabled] {
+  background-color: #151a1f;
+}
+body.theme-quartz .form-themed input[type=number][disabled] {
+  background-color: #151a1f;
+}
+body.theme-quartz .form-themed .btn.disabled {
+  background-color: #151a1f;
+}
+body.theme-quartz .form-themed input[type=text].disabled {
+  background-color: #151a1f;
+}
+body.theme-quartz .form-themed input[type=password].disabled {
+  background-color: #151a1f;
+}
+body.theme-quartz .form-themed input[type=number].disabled {
+  background-color: #151a1f;
+}
+body.theme-quartz .form-themed .btn[disabled]:hover {
+  background-color: #151a1f;
+}
+body.theme-quartz .form-themed input[type=text][disabled]:hover {
+  background-color: #151a1f;
+}
+body.theme-quartz .form-themed input[type=password][disabled]:hover {
+  background-color: #151a1f;
+}
+body.theme-quartz .form-themed input[type=number][disabled]:hover {
+  background-color: #151a1f;
+}
+body.theme-quartz .form-themed .btn.disabled:hover {
+  background-color: #151a1f;
+}
+body.theme-quartz .form-themed input[type=text].disabled:hover {
+  background-color: #151a1f;
+}
+body.theme-quartz .form-themed input[type=password].disabled:hover {
+  background-color: #151a1f;
+}
+body.theme-quartz .form-themed input[type=number].disabled:hover {
+  background-color: #151a1f;
+}
+body.theme-quartz .form-themed .btn[disabled]:active {
+  background-color: #151a1f;
+}
+body.theme-quartz .form-themed input[type=text][disabled]:active {
+  background-color: #151a1f;
+}
+body.theme-quartz .form-themed input[type=password][disabled]:active {
+  background-color: #151a1f;
+}
+body.theme-quartz .form-themed input[type=number][disabled]:active {
+  background-color: #151a1f;
+}
+body.theme-quartz .form-themed .btn.disabled:active {
+  background-color: #151a1f;
+}
+body.theme-quartz .form-themed input[type=text].disabled:active {
+  background-color: #151a1f;
+}
+body.theme-quartz .form-themed input[type=password].disabled:active {
+  background-color: #151a1f;
+}
+body.theme-quartz .form-themed input[type=number].disabled:active {
+  background-color: #151a1f;
+}
+.form-themed .btn[disabled],
+.form-themed input[type=text][disabled],
+.form-themed input[type=password][disabled],
+.form-themed input[type=number][disabled],
+.form-themed .btn.disabled,
+.form-themed input[type=text].disabled,
+.form-themed input[type=password].disabled,
+.form-themed input[type=number].disabled,
+.form-themed .btn[disabled]:hover,
+.form-themed input[type=text][disabled]:hover,
+.form-themed input[type=password][disabled]:hover,
+.form-themed input[type=number][disabled]:hover,
+.form-themed .btn.disabled:hover,
+.form-themed input[type=text].disabled:hover,
+.form-themed input[type=password].disabled:hover,
+.form-themed input[type=number].disabled:hover,
+.form-themed .btn[disabled]:active,
+.form-themed input[type=text][disabled]:active,
+.form-themed input[type=password][disabled]:active,
+.form-themed input[type=number][disabled]:active,
+.form-themed .btn.disabled:active,
+.form-themed input[type=text].disabled:active,
+.form-themed input[type=password].disabled:active,
+.form-themed input[type=number].disabled:active {
+  border-color: #516873;
+}
+body.theme-tide .form-themed .btn[disabled] {
+  border-color: #516873;
+}
+body.theme-tide .form-themed input[type=text][disabled] {
+  border-color: #516873;
+}
+body.theme-tide .form-themed input[type=password][disabled] {
+  border-color: #516873;
+}
+body.theme-tide .form-themed input[type=number][disabled] {
+  border-color: #516873;
+}
+body.theme-tide .form-themed .btn.disabled {
+  border-color: #516873;
+}
+body.theme-tide .form-themed input[type=text].disabled {
+  border-color: #516873;
+}
+body.theme-tide .form-themed input[type=password].disabled {
+  border-color: #516873;
+}
+body.theme-tide .form-themed input[type=number].disabled {
+  border-color: #516873;
+}
+body.theme-tide .form-themed .btn[disabled]:hover {
+  border-color: #516873;
+}
+body.theme-tide .form-themed input[type=text][disabled]:hover {
+  border-color: #516873;
+}
+body.theme-tide .form-themed input[type=password][disabled]:hover {
+  border-color: #516873;
+}
+body.theme-tide .form-themed input[type=number][disabled]:hover {
+  border-color: #516873;
+}
+body.theme-tide .form-themed .btn.disabled:hover {
+  border-color: #516873;
+}
+body.theme-tide .form-themed input[type=text].disabled:hover {
+  border-color: #516873;
+}
+body.theme-tide .form-themed input[type=password].disabled:hover {
+  border-color: #516873;
+}
+body.theme-tide .form-themed input[type=number].disabled:hover {
+  border-color: #516873;
+}
+body.theme-tide .form-themed .btn[disabled]:active {
+  border-color: #516873;
+}
+body.theme-tide .form-themed input[type=text][disabled]:active {
+  border-color: #516873;
+}
+body.theme-tide .form-themed input[type=password][disabled]:active {
+  border-color: #516873;
+}
+body.theme-tide .form-themed input[type=number][disabled]:active {
+  border-color: #516873;
+}
+body.theme-tide .form-themed .btn.disabled:active {
+  border-color: #516873;
+}
+body.theme-tide .form-themed input[type=text].disabled:active {
+  border-color: #516873;
+}
+body.theme-tide .form-themed input[type=password].disabled:active {
+  border-color: #516873;
+}
+body.theme-tide .form-themed input[type=number].disabled:active {
+  border-color: #516873;
+}
+body.theme-tigerlily .form-themed .btn[disabled] {
+  border-color: #516873;
+}
+body.theme-tigerlily .form-themed input[type=text][disabled] {
+  border-color: #516873;
+}
+body.theme-tigerlily .form-themed input[type=password][disabled] {
+  border-color: #516873;
+}
+body.theme-tigerlily .form-themed input[type=number][disabled] {
+  border-color: #516873;
+}
+body.theme-tigerlily .form-themed .btn.disabled {
+  border-color: #516873;
+}
+body.theme-tigerlily .form-themed input[type=text].disabled {
+  border-color: #516873;
+}
+body.theme-tigerlily .form-themed input[type=password].disabled {
+  border-color: #516873;
+}
+body.theme-tigerlily .form-themed input[type=number].disabled {
+  border-color: #516873;
+}
+body.theme-tigerlily .form-themed .btn[disabled]:hover {
+  border-color: #516873;
+}
+body.theme-tigerlily .form-themed input[type=text][disabled]:hover {
+  border-color: #516873;
+}
+body.theme-tigerlily .form-themed input[type=password][disabled]:hover {
+  border-color: #516873;
+}
+body.theme-tigerlily .form-themed input[type=number][disabled]:hover {
+  border-color: #516873;
+}
+body.theme-tigerlily .form-themed .btn.disabled:hover {
+  border-color: #516873;
+}
+body.theme-tigerlily .form-themed input[type=text].disabled:hover {
+  border-color: #516873;
+}
+body.theme-tigerlily .form-themed input[type=password].disabled:hover {
+  border-color: #516873;
+}
+body.theme-tigerlily .form-themed input[type=number].disabled:hover {
+  border-color: #516873;
+}
+body.theme-tigerlily .form-themed .btn[disabled]:active {
+  border-color: #516873;
+}
+body.theme-tigerlily .form-themed input[type=text][disabled]:active {
+  border-color: #516873;
+}
+body.theme-tigerlily .form-themed input[type=password][disabled]:active {
+  border-color: #516873;
+}
+body.theme-tigerlily .form-themed input[type=number][disabled]:active {
+  border-color: #516873;
+}
+body.theme-tigerlily .form-themed .btn.disabled:active {
+  border-color: #516873;
+}
+body.theme-tigerlily .form-themed input[type=text].disabled:active {
+  border-color: #516873;
+}
+body.theme-tigerlily .form-themed input[type=password].disabled:active {
+  border-color: #516873;
+}
+body.theme-tigerlily .form-themed input[type=number].disabled:active {
+  border-color: #516873;
+}
+body.theme-crickets .form-themed .btn[disabled] {
+  border-color: #516873;
+}
+body.theme-crickets .form-themed input[type=text][disabled] {
+  border-color: #516873;
+}
+body.theme-crickets .form-themed input[type=password][disabled] {
+  border-color: #516873;
+}
+body.theme-crickets .form-themed input[type=number][disabled] {
+  border-color: #516873;
+}
+body.theme-crickets .form-themed .btn.disabled {
+  border-color: #516873;
+}
+body.theme-crickets .form-themed input[type=text].disabled {
+  border-color: #516873;
+}
+body.theme-crickets .form-themed input[type=password].disabled {
+  border-color: #516873;
+}
+body.theme-crickets .form-themed input[type=number].disabled {
+  border-color: #516873;
+}
+body.theme-crickets .form-themed .btn[disabled]:hover {
+  border-color: #516873;
+}
+body.theme-crickets .form-themed input[type=text][disabled]:hover {
+  border-color: #516873;
+}
+body.theme-crickets .form-themed input[type=password][disabled]:hover {
+  border-color: #516873;
+}
+body.theme-crickets .form-themed input[type=number][disabled]:hover {
+  border-color: #516873;
+}
+body.theme-crickets .form-themed .btn.disabled:hover {
+  border-color: #516873;
+}
+body.theme-crickets .form-themed input[type=text].disabled:hover {
+  border-color: #516873;
+}
+body.theme-crickets .form-themed input[type=password].disabled:hover {
+  border-color: #516873;
+}
+body.theme-crickets .form-themed input[type=number].disabled:hover {
+  border-color: #516873;
+}
+body.theme-crickets .form-themed .btn[disabled]:active {
+  border-color: #516873;
+}
+body.theme-crickets .form-themed input[type=text][disabled]:active {
+  border-color: #516873;
+}
+body.theme-crickets .form-themed input[type=password][disabled]:active {
+  border-color: #516873;
+}
+body.theme-crickets .form-themed input[type=number][disabled]:active {
+  border-color: #516873;
+}
+body.theme-crickets .form-themed .btn.disabled:active {
+  border-color: #516873;
+}
+body.theme-crickets .form-themed input[type=text].disabled:active {
+  border-color: #516873;
+}
+body.theme-crickets .form-themed input[type=password].disabled:active {
+  border-color: #516873;
+}
+body.theme-crickets .form-themed input[type=number].disabled:active {
+  border-color: #516873;
+}
+body.theme-honeycomb .form-themed .btn[disabled] {
+  border-color: #516873;
+}
+body.theme-honeycomb .form-themed input[type=text][disabled] {
+  border-color: #516873;
+}
+body.theme-honeycomb .form-themed input[type=password][disabled] {
+  border-color: #516873;
+}
+body.theme-honeycomb .form-themed input[type=number][disabled] {
+  border-color: #516873;
+}
+body.theme-honeycomb .form-themed .btn.disabled {
+  border-color: #516873;
+}
+body.theme-honeycomb .form-themed input[type=text].disabled {
+  border-color: #516873;
+}
+body.theme-honeycomb .form-themed input[type=password].disabled {
+  border-color: #516873;
+}
+body.theme-honeycomb .form-themed input[type=number].disabled {
+  border-color: #516873;
+}
+body.theme-honeycomb .form-themed .btn[disabled]:hover {
+  border-color: #516873;
+}
+body.theme-honeycomb .form-themed input[type=text][disabled]:hover {
+  border-color: #516873;
+}
+body.theme-honeycomb .form-themed input[type=password][disabled]:hover {
+  border-color: #516873;
+}
+body.theme-honeycomb .form-themed input[type=number][disabled]:hover {
+  border-color: #516873;
+}
+body.theme-honeycomb .form-themed .btn.disabled:hover {
+  border-color: #516873;
+}
+body.theme-honeycomb .form-themed input[type=text].disabled:hover {
+  border-color: #516873;
+}
+body.theme-honeycomb .form-themed input[type=password].disabled:hover {
+  border-color: #516873;
+}
+body.theme-honeycomb .form-themed input[type=number].disabled:hover {
+  border-color: #516873;
+}
+body.theme-honeycomb .form-themed .btn[disabled]:active {
+  border-color: #516873;
+}
+body.theme-honeycomb .form-themed input[type=text][disabled]:active {
+  border-color: #516873;
+}
+body.theme-honeycomb .form-themed input[type=password][disabled]:active {
+  border-color: #516873;
+}
+body.theme-honeycomb .form-themed input[type=number][disabled]:active {
+  border-color: #516873;
+}
+body.theme-honeycomb .form-themed .btn.disabled:active {
+  border-color: #516873;
+}
+body.theme-honeycomb .form-themed input[type=text].disabled:active {
+  border-color: #516873;
+}
+body.theme-honeycomb .form-themed input[type=password].disabled:active {
+  border-color: #516873;
+}
+body.theme-honeycomb .form-themed input[type=number].disabled:active {
+  border-color: #516873;
+}
+body.theme-mint .form-themed .btn[disabled] {
+  border-color: #516873;
+}
+body.theme-mint .form-themed input[type=text][disabled] {
+  border-color: #516873;
+}
+body.theme-mint .form-themed input[type=password][disabled] {
+  border-color: #516873;
+}
+body.theme-mint .form-themed input[type=number][disabled] {
+  border-color: #516873;
+}
+body.theme-mint .form-themed .btn.disabled {
+  border-color: #516873;
+}
+body.theme-mint .form-themed input[type=text].disabled {
+  border-color: #516873;
+}
+body.theme-mint .form-themed input[type=password].disabled {
+  border-color: #516873;
+}
+body.theme-mint .form-themed input[type=number].disabled {
+  border-color: #516873;
+}
+body.theme-mint .form-themed .btn[disabled]:hover {
+  border-color: #516873;
+}
+body.theme-mint .form-themed input[type=text][disabled]:hover {
+  border-color: #516873;
+}
+body.theme-mint .form-themed input[type=password][disabled]:hover {
+  border-color: #516873;
+}
+body.theme-mint .form-themed input[type=number][disabled]:hover {
+  border-color: #516873;
+}
+body.theme-mint .form-themed .btn.disabled:hover {
+  border-color: #516873;
+}
+body.theme-mint .form-themed input[type=text].disabled:hover {
+  border-color: #516873;
+}
+body.theme-mint .form-themed input[type=password].disabled:hover {
+  border-color: #516873;
+}
+body.theme-mint .form-themed input[type=number].disabled:hover {
+  border-color: #516873;
+}
+body.theme-mint .form-themed .btn[disabled]:active {
+  border-color: #516873;
+}
+body.theme-mint .form-themed input[type=text][disabled]:active {
+  border-color: #516873;
+}
+body.theme-mint .form-themed input[type=password][disabled]:active {
+  border-color: #516873;
+}
+body.theme-mint .form-themed input[type=number][disabled]:active {
+  border-color: #516873;
+}
+body.theme-mint .form-themed .btn.disabled:active {
+  border-color: #516873;
+}
+body.theme-mint .form-themed input[type=text].disabled:active {
+  border-color: #516873;
+}
+body.theme-mint .form-themed input[type=password].disabled:active {
+  border-color: #516873;
+}
+body.theme-mint .form-themed input[type=number].disabled:active {
+  border-color: #516873;
+}
+body.theme-overcast .form-themed .btn[disabled] {
+  border-color: #516873;
+}
+body.theme-overcast .form-themed input[type=text][disabled] {
+  border-color: #516873;
+}
+body.theme-overcast .form-themed input[type=password][disabled] {
+  border-color: #516873;
+}
+body.theme-overcast .form-themed input[type=number][disabled] {
+  border-color: #516873;
+}
+body.theme-overcast .form-themed .btn.disabled {
+  border-color: #516873;
+}
+body.theme-overcast .form-themed input[type=text].disabled {
+  border-color: #516873;
+}
+body.theme-overcast .form-themed input[type=password].disabled {
+  border-color: #516873;
+}
+body.theme-overcast .form-themed input[type=number].disabled {
+  border-color: #516873;
+}
+body.theme-overcast .form-themed .btn[disabled]:hover {
+  border-color: #516873;
+}
+body.theme-overcast .form-themed input[type=text][disabled]:hover {
+  border-color: #516873;
+}
+body.theme-overcast .form-themed input[type=password][disabled]:hover {
+  border-color: #516873;
+}
+body.theme-overcast .form-themed input[type=number][disabled]:hover {
+  border-color: #516873;
+}
+body.theme-overcast .form-themed .btn.disabled:hover {
+  border-color: #516873;
+}
+body.theme-overcast .form-themed input[type=text].disabled:hover {
+  border-color: #516873;
+}
+body.theme-overcast .form-themed input[type=password].disabled:hover {
+  border-color: #516873;
+}
+body.theme-overcast .form-themed input[type=number].disabled:hover {
+  border-color: #516873;
+}
+body.theme-overcast .form-themed .btn[disabled]:active {
+  border-color: #516873;
+}
+body.theme-overcast .form-themed input[type=text][disabled]:active {
+  border-color: #516873;
+}
+body.theme-overcast .form-themed input[type=password][disabled]:active {
+  border-color: #516873;
+}
+body.theme-overcast .form-themed input[type=number][disabled]:active {
+  border-color: #516873;
+}
+body.theme-overcast .form-themed .btn.disabled:active {
+  border-color: #516873;
+}
+body.theme-overcast .form-themed input[type=text].disabled:active {
+  border-color: #516873;
+}
+body.theme-overcast .form-themed input[type=password].disabled:active {
+  border-color: #516873;
+}
+body.theme-overcast .form-themed input[type=number].disabled:active {
+  border-color: #516873;
+}
+body.theme-quartz .form-themed .btn[disabled] {
+  border-color: #516873;
+}
+body.theme-quartz .form-themed input[type=text][disabled] {
+  border-color: #516873;
+}
+body.theme-quartz .form-themed input[type=password][disabled] {
+  border-color: #516873;
+}
+body.theme-quartz .form-themed input[type=number][disabled] {
+  border-color: #516873;
+}
+body.theme-quartz .form-themed .btn.disabled {
+  border-color: #516873;
+}
+body.theme-quartz .form-themed input[type=text].disabled {
+  border-color: #516873;
+}
+body.theme-quartz .form-themed input[type=password].disabled {
+  border-color: #516873;
+}
+body.theme-quartz .form-themed input[type=number].disabled {
+  border-color: #516873;
+}
+body.theme-quartz .form-themed .btn[disabled]:hover {
+  border-color: #516873;
+}
+body.theme-quartz .form-themed input[type=text][disabled]:hover {
+  border-color: #516873;
+}
+body.theme-quartz .form-themed input[type=password][disabled]:hover {
+  border-color: #516873;
+}
+body.theme-quartz .form-themed input[type=number][disabled]:hover {
+  border-color: #516873;
+}
+body.theme-quartz .form-themed .btn.disabled:hover {
+  border-color: #516873;
+}
+body.theme-quartz .form-themed input[type=text].disabled:hover {
+  border-color: #516873;
+}
+body.theme-quartz .form-themed input[type=password].disabled:hover {
+  border-color: #516873;
+}
+body.theme-quartz .form-themed input[type=number].disabled:hover {
+  border-color: #516873;
+}
+body.theme-quartz .form-themed .btn[disabled]:active {
+  border-color: #516873;
+}
+body.theme-quartz .form-themed input[type=text][disabled]:active {
+  border-color: #516873;
+}
+body.theme-quartz .form-themed input[type=password][disabled]:active {
+  border-color: #516873;
+}
+body.theme-quartz .form-themed input[type=number][disabled]:active {
+  border-color: #516873;
+}
+body.theme-quartz .form-themed .btn.disabled:active {
+  border-color: #516873;
+}
+body.theme-quartz .form-themed input[type=text].disabled:active {
+  border-color: #516873;
+}
+body.theme-quartz .form-themed input[type=password].disabled:active {
+  border-color: #516873;
+}
+body.theme-quartz .form-themed input[type=number].disabled:active {
+  border-color: #516873;
+}
+.form-themed .btn[disabled],
+.form-themed input[type=text][disabled],
+.form-themed input[type=password][disabled],
+.form-themed input[type=number][disabled],
+.form-themed .btn.disabled,
+.form-themed input[type=text].disabled,
+.form-themed input[type=password].disabled,
+.form-themed input[type=number].disabled,
+.form-themed .btn[disabled]:hover,
+.form-themed input[type=text][disabled]:hover,
+.form-themed input[type=password][disabled]:hover,
+.form-themed input[type=number][disabled]:hover,
+.form-themed .btn.disabled:hover,
+.form-themed input[type=text].disabled:hover,
+.form-themed input[type=password].disabled:hover,
+.form-themed input[type=number].disabled:hover,
+.form-themed .btn[disabled]:active,
+.form-themed input[type=text][disabled]:active,
+.form-themed input[type=password][disabled]:active,
+.form-themed input[type=number][disabled]:active,
+.form-themed .btn.disabled:active,
+.form-themed input[type=text].disabled:active,
+.form-themed input[type=password].disabled:active,
+.form-themed input[type=number].disabled:active {
+  color: #fff;
+}
+body.theme-tide .form-themed .btn[disabled] {
+  color: #fff;
+}
+body.theme-tide .form-themed input[type=text][disabled] {
+  color: #fff;
+}
+body.theme-tide .form-themed input[type=password][disabled] {
+  color: #fff;
+}
+body.theme-tide .form-themed input[type=number][disabled] {
+  color: #fff;
+}
+body.theme-tide .form-themed .btn.disabled {
+  color: #fff;
+}
+body.theme-tide .form-themed input[type=text].disabled {
+  color: #fff;
+}
+body.theme-tide .form-themed input[type=password].disabled {
+  color: #fff;
+}
+body.theme-tide .form-themed input[type=number].disabled {
+  color: #fff;
+}
+body.theme-tide .form-themed .btn[disabled]:hover {
+  color: #fff;
+}
+body.theme-tide .form-themed input[type=text][disabled]:hover {
+  color: #fff;
+}
+body.theme-tide .form-themed input[type=password][disabled]:hover {
+  color: #fff;
+}
+body.theme-tide .form-themed input[type=number][disabled]:hover {
+  color: #fff;
+}
+body.theme-tide .form-themed .btn.disabled:hover {
+  color: #fff;
+}
+body.theme-tide .form-themed input[type=text].disabled:hover {
+  color: #fff;
+}
+body.theme-tide .form-themed input[type=password].disabled:hover {
+  color: #fff;
+}
+body.theme-tide .form-themed input[type=number].disabled:hover {
+  color: #fff;
+}
+body.theme-tide .form-themed .btn[disabled]:active {
+  color: #fff;
+}
+body.theme-tide .form-themed input[type=text][disabled]:active {
+  color: #fff;
+}
+body.theme-tide .form-themed input[type=password][disabled]:active {
+  color: #fff;
+}
+body.theme-tide .form-themed input[type=number][disabled]:active {
+  color: #fff;
+}
+body.theme-tide .form-themed .btn.disabled:active {
+  color: #fff;
+}
+body.theme-tide .form-themed input[type=text].disabled:active {
+  color: #fff;
+}
+body.theme-tide .form-themed input[type=password].disabled:active {
+  color: #fff;
+}
+body.theme-tide .form-themed input[type=number].disabled:active {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed .btn[disabled] {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed input[type=text][disabled] {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed input[type=password][disabled] {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed input[type=number][disabled] {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed .btn.disabled {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed input[type=text].disabled {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed input[type=password].disabled {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed input[type=number].disabled {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed .btn[disabled]:hover {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed input[type=text][disabled]:hover {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed input[type=password][disabled]:hover {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed input[type=number][disabled]:hover {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed .btn.disabled:hover {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed input[type=text].disabled:hover {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed input[type=password].disabled:hover {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed input[type=number].disabled:hover {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed .btn[disabled]:active {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed input[type=text][disabled]:active {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed input[type=password][disabled]:active {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed input[type=number][disabled]:active {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed .btn.disabled:active {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed input[type=text].disabled:active {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed input[type=password].disabled:active {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed input[type=number].disabled:active {
+  color: #fff;
+}
+body.theme-crickets .form-themed .btn[disabled] {
+  color: #fff;
+}
+body.theme-crickets .form-themed input[type=text][disabled] {
+  color: #fff;
+}
+body.theme-crickets .form-themed input[type=password][disabled] {
+  color: #fff;
+}
+body.theme-crickets .form-themed input[type=number][disabled] {
+  color: #fff;
+}
+body.theme-crickets .form-themed .btn.disabled {
+  color: #fff;
+}
+body.theme-crickets .form-themed input[type=text].disabled {
+  color: #fff;
+}
+body.theme-crickets .form-themed input[type=password].disabled {
+  color: #fff;
+}
+body.theme-crickets .form-themed input[type=number].disabled {
+  color: #fff;
+}
+body.theme-crickets .form-themed .btn[disabled]:hover {
+  color: #fff;
+}
+body.theme-crickets .form-themed input[type=text][disabled]:hover {
+  color: #fff;
+}
+body.theme-crickets .form-themed input[type=password][disabled]:hover {
+  color: #fff;
+}
+body.theme-crickets .form-themed input[type=number][disabled]:hover {
+  color: #fff;
+}
+body.theme-crickets .form-themed .btn.disabled:hover {
+  color: #fff;
+}
+body.theme-crickets .form-themed input[type=text].disabled:hover {
+  color: #fff;
+}
+body.theme-crickets .form-themed input[type=password].disabled:hover {
+  color: #fff;
+}
+body.theme-crickets .form-themed input[type=number].disabled:hover {
+  color: #fff;
+}
+body.theme-crickets .form-themed .btn[disabled]:active {
+  color: #fff;
+}
+body.theme-crickets .form-themed input[type=text][disabled]:active {
+  color: #fff;
+}
+body.theme-crickets .form-themed input[type=password][disabled]:active {
+  color: #fff;
+}
+body.theme-crickets .form-themed input[type=number][disabled]:active {
+  color: #fff;
+}
+body.theme-crickets .form-themed .btn.disabled:active {
+  color: #fff;
+}
+body.theme-crickets .form-themed input[type=text].disabled:active {
+  color: #fff;
+}
+body.theme-crickets .form-themed input[type=password].disabled:active {
+  color: #fff;
+}
+body.theme-crickets .form-themed input[type=number].disabled:active {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed .btn[disabled] {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed input[type=text][disabled] {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed input[type=password][disabled] {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed input[type=number][disabled] {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed .btn.disabled {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed input[type=text].disabled {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed input[type=password].disabled {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed input[type=number].disabled {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed .btn[disabled]:hover {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed input[type=text][disabled]:hover {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed input[type=password][disabled]:hover {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed input[type=number][disabled]:hover {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed .btn.disabled:hover {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed input[type=text].disabled:hover {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed input[type=password].disabled:hover {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed input[type=number].disabled:hover {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed .btn[disabled]:active {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed input[type=text][disabled]:active {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed input[type=password][disabled]:active {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed input[type=number][disabled]:active {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed .btn.disabled:active {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed input[type=text].disabled:active {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed input[type=password].disabled:active {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed input[type=number].disabled:active {
+  color: #fff;
+}
+body.theme-mint .form-themed .btn[disabled] {
+  color: #fff;
+}
+body.theme-mint .form-themed input[type=text][disabled] {
+  color: #fff;
+}
+body.theme-mint .form-themed input[type=password][disabled] {
+  color: #fff;
+}
+body.theme-mint .form-themed input[type=number][disabled] {
+  color: #fff;
+}
+body.theme-mint .form-themed .btn.disabled {
+  color: #fff;
+}
+body.theme-mint .form-themed input[type=text].disabled {
+  color: #fff;
+}
+body.theme-mint .form-themed input[type=password].disabled {
+  color: #fff;
+}
+body.theme-mint .form-themed input[type=number].disabled {
+  color: #fff;
+}
+body.theme-mint .form-themed .btn[disabled]:hover {
+  color: #fff;
+}
+body.theme-mint .form-themed input[type=text][disabled]:hover {
+  color: #fff;
+}
+body.theme-mint .form-themed input[type=password][disabled]:hover {
+  color: #fff;
+}
+body.theme-mint .form-themed input[type=number][disabled]:hover {
+  color: #fff;
+}
+body.theme-mint .form-themed .btn.disabled:hover {
+  color: #fff;
+}
+body.theme-mint .form-themed input[type=text].disabled:hover {
+  color: #fff;
+}
+body.theme-mint .form-themed input[type=password].disabled:hover {
+  color: #fff;
+}
+body.theme-mint .form-themed input[type=number].disabled:hover {
+  color: #fff;
+}
+body.theme-mint .form-themed .btn[disabled]:active {
+  color: #fff;
+}
+body.theme-mint .form-themed input[type=text][disabled]:active {
+  color: #fff;
+}
+body.theme-mint .form-themed input[type=password][disabled]:active {
+  color: #fff;
+}
+body.theme-mint .form-themed input[type=number][disabled]:active {
+  color: #fff;
+}
+body.theme-mint .form-themed .btn.disabled:active {
+  color: #fff;
+}
+body.theme-mint .form-themed input[type=text].disabled:active {
+  color: #fff;
+}
+body.theme-mint .form-themed input[type=password].disabled:active {
+  color: #fff;
+}
+body.theme-mint .form-themed input[type=number].disabled:active {
+  color: #fff;
+}
+body.theme-overcast .form-themed .btn[disabled] {
+  color: #fff;
+}
+body.theme-overcast .form-themed input[type=text][disabled] {
+  color: #fff;
+}
+body.theme-overcast .form-themed input[type=password][disabled] {
+  color: #fff;
+}
+body.theme-overcast .form-themed input[type=number][disabled] {
+  color: #fff;
+}
+body.theme-overcast .form-themed .btn.disabled {
+  color: #fff;
+}
+body.theme-overcast .form-themed input[type=text].disabled {
+  color: #fff;
+}
+body.theme-overcast .form-themed input[type=password].disabled {
+  color: #fff;
+}
+body.theme-overcast .form-themed input[type=number].disabled {
+  color: #fff;
+}
+body.theme-overcast .form-themed .btn[disabled]:hover {
+  color: #fff;
+}
+body.theme-overcast .form-themed input[type=text][disabled]:hover {
+  color: #fff;
+}
+body.theme-overcast .form-themed input[type=password][disabled]:hover {
+  color: #fff;
+}
+body.theme-overcast .form-themed input[type=number][disabled]:hover {
+  color: #fff;
+}
+body.theme-overcast .form-themed .btn.disabled:hover {
+  color: #fff;
+}
+body.theme-overcast .form-themed input[type=text].disabled:hover {
+  color: #fff;
+}
+body.theme-overcast .form-themed input[type=password].disabled:hover {
+  color: #fff;
+}
+body.theme-overcast .form-themed input[type=number].disabled:hover {
+  color: #fff;
+}
+body.theme-overcast .form-themed .btn[disabled]:active {
+  color: #fff;
+}
+body.theme-overcast .form-themed input[type=text][disabled]:active {
+  color: #fff;
+}
+body.theme-overcast .form-themed input[type=password][disabled]:active {
+  color: #fff;
+}
+body.theme-overcast .form-themed input[type=number][disabled]:active {
+  color: #fff;
+}
+body.theme-overcast .form-themed .btn.disabled:active {
+  color: #fff;
+}
+body.theme-overcast .form-themed input[type=text].disabled:active {
+  color: #fff;
+}
+body.theme-overcast .form-themed input[type=password].disabled:active {
+  color: #fff;
+}
+body.theme-overcast .form-themed input[type=number].disabled:active {
+  color: #fff;
+}
+body.theme-quartz .form-themed .btn[disabled] {
+  color: #fff;
+}
+body.theme-quartz .form-themed input[type=text][disabled] {
+  color: #fff;
+}
+body.theme-quartz .form-themed input[type=password][disabled] {
+  color: #fff;
+}
+body.theme-quartz .form-themed input[type=number][disabled] {
+  color: #fff;
+}
+body.theme-quartz .form-themed .btn.disabled {
+  color: #fff;
+}
+body.theme-quartz .form-themed input[type=text].disabled {
+  color: #fff;
+}
+body.theme-quartz .form-themed input[type=password].disabled {
+  color: #fff;
+}
+body.theme-quartz .form-themed input[type=number].disabled {
+  color: #fff;
+}
+body.theme-quartz .form-themed .btn[disabled]:hover {
+  color: #fff;
+}
+body.theme-quartz .form-themed input[type=text][disabled]:hover {
+  color: #fff;
+}
+body.theme-quartz .form-themed input[type=password][disabled]:hover {
+  color: #fff;
+}
+body.theme-quartz .form-themed input[type=number][disabled]:hover {
+  color: #fff;
+}
+body.theme-quartz .form-themed .btn.disabled:hover {
+  color: #fff;
+}
+body.theme-quartz .form-themed input[type=text].disabled:hover {
+  color: #fff;
+}
+body.theme-quartz .form-themed input[type=password].disabled:hover {
+  color: #fff;
+}
+body.theme-quartz .form-themed input[type=number].disabled:hover {
+  color: #fff;
+}
+body.theme-quartz .form-themed .btn[disabled]:active {
+  color: #fff;
+}
+body.theme-quartz .form-themed input[type=text][disabled]:active {
+  color: #fff;
+}
+body.theme-quartz .form-themed input[type=password][disabled]:active {
+  color: #fff;
+}
+body.theme-quartz .form-themed input[type=number][disabled]:active {
+  color: #fff;
+}
+body.theme-quartz .form-themed .btn.disabled:active {
+  color: #fff;
+}
+body.theme-quartz .form-themed input[type=text].disabled:active {
+  color: #fff;
+}
+body.theme-quartz .form-themed input[type=password].disabled:active {
+  color: #fff;
+}
+body.theme-quartz .form-themed input[type=number].disabled:active {
+  color: #fff;
+}
+.form-themed .btn[disabled] + .wrapperText,
+.form-themed input[type=text][disabled] + .wrapperText,
+.form-themed input[type=password][disabled] + .wrapperText,
+.form-themed input[type=number][disabled] + .wrapperText,
+.form-themed .btn.disabled + .wrapperText,
+.form-themed input[type=text].disabled + .wrapperText,
+.form-themed input[type=password].disabled + .wrapperText,
+.form-themed input[type=number].disabled + .wrapperText,
+.form-themed .btn[disabled]:hover + .wrapperText,
+.form-themed input[type=text][disabled]:hover + .wrapperText,
+.form-themed input[type=password][disabled]:hover + .wrapperText,
+.form-themed input[type=number][disabled]:hover + .wrapperText,
+.form-themed .btn.disabled:hover + .wrapperText,
+.form-themed input[type=text].disabled:hover + .wrapperText,
+.form-themed input[type=password].disabled:hover + .wrapperText,
+.form-themed input[type=number].disabled:hover + .wrapperText,
+.form-themed .btn[disabled]:active + .wrapperText,
+.form-themed input[type=text][disabled]:active + .wrapperText,
+.form-themed input[type=password][disabled]:active + .wrapperText,
+.form-themed input[type=number][disabled]:active + .wrapperText,
+.form-themed .btn.disabled:active + .wrapperText,
+.form-themed input[type=text].disabled:active + .wrapperText,
+.form-themed input[type=password].disabled:active + .wrapperText,
+.form-themed input[type=number].disabled:active + .wrapperText {
+  cursor: auto;
+}
+.form-themed .btn[disabled] + .wrapperText,
+.form-themed input[type=text][disabled] + .wrapperText,
+.form-themed input[type=password][disabled] + .wrapperText,
+.form-themed input[type=number][disabled] + .wrapperText,
+.form-themed .btn.disabled + .wrapperText,
+.form-themed input[type=text].disabled + .wrapperText,
+.form-themed input[type=password].disabled + .wrapperText,
+.form-themed input[type=number].disabled + .wrapperText,
+.form-themed .btn[disabled]:hover + .wrapperText,
+.form-themed input[type=text][disabled]:hover + .wrapperText,
+.form-themed input[type=password][disabled]:hover + .wrapperText,
+.form-themed input[type=number][disabled]:hover + .wrapperText,
+.form-themed .btn.disabled:hover + .wrapperText,
+.form-themed input[type=text].disabled:hover + .wrapperText,
+.form-themed input[type=password].disabled:hover + .wrapperText,
+.form-themed input[type=number].disabled:hover + .wrapperText,
+.form-themed .btn[disabled]:active + .wrapperText,
+.form-themed input[type=text][disabled]:active + .wrapperText,
+.form-themed input[type=password][disabled]:active + .wrapperText,
+.form-themed input[type=number][disabled]:active + .wrapperText,
+.form-themed .btn.disabled:active + .wrapperText,
+.form-themed input[type=text].disabled:active + .wrapperText,
+.form-themed input[type=password].disabled:active + .wrapperText,
+.form-themed input[type=number].disabled:active + .wrapperText {
+  color: #fff;
+}
+body.theme-tide .form-themed .btn[disabled] + .wrapperText {
+  color: #fff;
+}
+body.theme-tide .form-themed input[type=text][disabled] + .wrapperText {
+  color: #fff;
+}
+body.theme-tide .form-themed input[type=password][disabled] + .wrapperText {
+  color: #fff;
+}
+body.theme-tide .form-themed input[type=number][disabled] + .wrapperText {
+  color: #fff;
+}
+body.theme-tide .form-themed .btn.disabled + .wrapperText {
+  color: #fff;
+}
+body.theme-tide .form-themed input[type=text].disabled + .wrapperText {
+  color: #fff;
+}
+body.theme-tide .form-themed input[type=password].disabled + .wrapperText {
+  color: #fff;
+}
+body.theme-tide .form-themed input[type=number].disabled + .wrapperText {
+  color: #fff;
+}
+body.theme-tide .form-themed .btn[disabled]:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-tide .form-themed input[type=text][disabled]:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-tide .form-themed input[type=password][disabled]:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-tide .form-themed input[type=number][disabled]:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-tide .form-themed .btn.disabled:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-tide .form-themed input[type=text].disabled:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-tide .form-themed input[type=password].disabled:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-tide .form-themed input[type=number].disabled:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-tide .form-themed .btn[disabled]:active + .wrapperText {
+  color: #fff;
+}
+body.theme-tide .form-themed input[type=text][disabled]:active + .wrapperText {
+  color: #fff;
+}
+body.theme-tide .form-themed input[type=password][disabled]:active + .wrapperText {
+  color: #fff;
+}
+body.theme-tide .form-themed input[type=number][disabled]:active + .wrapperText {
+  color: #fff;
+}
+body.theme-tide .form-themed .btn.disabled:active + .wrapperText {
+  color: #fff;
+}
+body.theme-tide .form-themed input[type=text].disabled:active + .wrapperText {
+  color: #fff;
+}
+body.theme-tide .form-themed input[type=password].disabled:active + .wrapperText {
+  color: #fff;
+}
+body.theme-tide .form-themed input[type=number].disabled:active + .wrapperText {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed .btn[disabled] + .wrapperText {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed input[type=text][disabled] + .wrapperText {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed input[type=password][disabled] + .wrapperText {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed input[type=number][disabled] + .wrapperText {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed .btn.disabled + .wrapperText {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed input[type=text].disabled + .wrapperText {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed input[type=password].disabled + .wrapperText {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed input[type=number].disabled + .wrapperText {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed .btn[disabled]:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed input[type=text][disabled]:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed input[type=password][disabled]:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed input[type=number][disabled]:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed .btn.disabled:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed input[type=text].disabled:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed input[type=password].disabled:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed input[type=number].disabled:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed .btn[disabled]:active + .wrapperText {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed input[type=text][disabled]:active + .wrapperText {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed input[type=password][disabled]:active + .wrapperText {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed input[type=number][disabled]:active + .wrapperText {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed .btn.disabled:active + .wrapperText {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed input[type=text].disabled:active + .wrapperText {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed input[type=password].disabled:active + .wrapperText {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed input[type=number].disabled:active + .wrapperText {
+  color: #fff;
+}
+body.theme-crickets .form-themed .btn[disabled] + .wrapperText {
+  color: #fff;
+}
+body.theme-crickets .form-themed input[type=text][disabled] + .wrapperText {
+  color: #fff;
+}
+body.theme-crickets .form-themed input[type=password][disabled] + .wrapperText {
+  color: #fff;
+}
+body.theme-crickets .form-themed input[type=number][disabled] + .wrapperText {
+  color: #fff;
+}
+body.theme-crickets .form-themed .btn.disabled + .wrapperText {
+  color: #fff;
+}
+body.theme-crickets .form-themed input[type=text].disabled + .wrapperText {
+  color: #fff;
+}
+body.theme-crickets .form-themed input[type=password].disabled + .wrapperText {
+  color: #fff;
+}
+body.theme-crickets .form-themed input[type=number].disabled + .wrapperText {
+  color: #fff;
+}
+body.theme-crickets .form-themed .btn[disabled]:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-crickets .form-themed input[type=text][disabled]:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-crickets .form-themed input[type=password][disabled]:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-crickets .form-themed input[type=number][disabled]:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-crickets .form-themed .btn.disabled:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-crickets .form-themed input[type=text].disabled:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-crickets .form-themed input[type=password].disabled:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-crickets .form-themed input[type=number].disabled:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-crickets .form-themed .btn[disabled]:active + .wrapperText {
+  color: #fff;
+}
+body.theme-crickets .form-themed input[type=text][disabled]:active + .wrapperText {
+  color: #fff;
+}
+body.theme-crickets .form-themed input[type=password][disabled]:active + .wrapperText {
+  color: #fff;
+}
+body.theme-crickets .form-themed input[type=number][disabled]:active + .wrapperText {
+  color: #fff;
+}
+body.theme-crickets .form-themed .btn.disabled:active + .wrapperText {
+  color: #fff;
+}
+body.theme-crickets .form-themed input[type=text].disabled:active + .wrapperText {
+  color: #fff;
+}
+body.theme-crickets .form-themed input[type=password].disabled:active + .wrapperText {
+  color: #fff;
+}
+body.theme-crickets .form-themed input[type=number].disabled:active + .wrapperText {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed .btn[disabled] + .wrapperText {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed input[type=text][disabled] + .wrapperText {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed input[type=password][disabled] + .wrapperText {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed input[type=number][disabled] + .wrapperText {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed .btn.disabled + .wrapperText {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed input[type=text].disabled + .wrapperText {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed input[type=password].disabled + .wrapperText {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed input[type=number].disabled + .wrapperText {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed .btn[disabled]:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed input[type=text][disabled]:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed input[type=password][disabled]:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed input[type=number][disabled]:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed .btn.disabled:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed input[type=text].disabled:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed input[type=password].disabled:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed input[type=number].disabled:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed .btn[disabled]:active + .wrapperText {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed input[type=text][disabled]:active + .wrapperText {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed input[type=password][disabled]:active + .wrapperText {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed input[type=number][disabled]:active + .wrapperText {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed .btn.disabled:active + .wrapperText {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed input[type=text].disabled:active + .wrapperText {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed input[type=password].disabled:active + .wrapperText {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed input[type=number].disabled:active + .wrapperText {
+  color: #fff;
+}
+body.theme-mint .form-themed .btn[disabled] + .wrapperText {
+  color: #fff;
+}
+body.theme-mint .form-themed input[type=text][disabled] + .wrapperText {
+  color: #fff;
+}
+body.theme-mint .form-themed input[type=password][disabled] + .wrapperText {
+  color: #fff;
+}
+body.theme-mint .form-themed input[type=number][disabled] + .wrapperText {
+  color: #fff;
+}
+body.theme-mint .form-themed .btn.disabled + .wrapperText {
+  color: #fff;
+}
+body.theme-mint .form-themed input[type=text].disabled + .wrapperText {
+  color: #fff;
+}
+body.theme-mint .form-themed input[type=password].disabled + .wrapperText {
+  color: #fff;
+}
+body.theme-mint .form-themed input[type=number].disabled + .wrapperText {
+  color: #fff;
+}
+body.theme-mint .form-themed .btn[disabled]:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-mint .form-themed input[type=text][disabled]:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-mint .form-themed input[type=password][disabled]:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-mint .form-themed input[type=number][disabled]:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-mint .form-themed .btn.disabled:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-mint .form-themed input[type=text].disabled:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-mint .form-themed input[type=password].disabled:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-mint .form-themed input[type=number].disabled:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-mint .form-themed .btn[disabled]:active + .wrapperText {
+  color: #fff;
+}
+body.theme-mint .form-themed input[type=text][disabled]:active + .wrapperText {
+  color: #fff;
+}
+body.theme-mint .form-themed input[type=password][disabled]:active + .wrapperText {
+  color: #fff;
+}
+body.theme-mint .form-themed input[type=number][disabled]:active + .wrapperText {
+  color: #fff;
+}
+body.theme-mint .form-themed .btn.disabled:active + .wrapperText {
+  color: #fff;
+}
+body.theme-mint .form-themed input[type=text].disabled:active + .wrapperText {
+  color: #fff;
+}
+body.theme-mint .form-themed input[type=password].disabled:active + .wrapperText {
+  color: #fff;
+}
+body.theme-mint .form-themed input[type=number].disabled:active + .wrapperText {
+  color: #fff;
+}
+body.theme-overcast .form-themed .btn[disabled] + .wrapperText {
+  color: #fff;
+}
+body.theme-overcast .form-themed input[type=text][disabled] + .wrapperText {
+  color: #fff;
+}
+body.theme-overcast .form-themed input[type=password][disabled] + .wrapperText {
+  color: #fff;
+}
+body.theme-overcast .form-themed input[type=number][disabled] + .wrapperText {
+  color: #fff;
+}
+body.theme-overcast .form-themed .btn.disabled + .wrapperText {
+  color: #fff;
+}
+body.theme-overcast .form-themed input[type=text].disabled + .wrapperText {
+  color: #fff;
+}
+body.theme-overcast .form-themed input[type=password].disabled + .wrapperText {
+  color: #fff;
+}
+body.theme-overcast .form-themed input[type=number].disabled + .wrapperText {
+  color: #fff;
+}
+body.theme-overcast .form-themed .btn[disabled]:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-overcast .form-themed input[type=text][disabled]:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-overcast .form-themed input[type=password][disabled]:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-overcast .form-themed input[type=number][disabled]:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-overcast .form-themed .btn.disabled:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-overcast .form-themed input[type=text].disabled:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-overcast .form-themed input[type=password].disabled:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-overcast .form-themed input[type=number].disabled:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-overcast .form-themed .btn[disabled]:active + .wrapperText {
+  color: #fff;
+}
+body.theme-overcast .form-themed input[type=text][disabled]:active + .wrapperText {
+  color: #fff;
+}
+body.theme-overcast .form-themed input[type=password][disabled]:active + .wrapperText {
+  color: #fff;
+}
+body.theme-overcast .form-themed input[type=number][disabled]:active + .wrapperText {
+  color: #fff;
+}
+body.theme-overcast .form-themed .btn.disabled:active + .wrapperText {
+  color: #fff;
+}
+body.theme-overcast .form-themed input[type=text].disabled:active + .wrapperText {
+  color: #fff;
+}
+body.theme-overcast .form-themed input[type=password].disabled:active + .wrapperText {
+  color: #fff;
+}
+body.theme-overcast .form-themed input[type=number].disabled:active + .wrapperText {
+  color: #fff;
+}
+body.theme-quartz .form-themed .btn[disabled] + .wrapperText {
+  color: #fff;
+}
+body.theme-quartz .form-themed input[type=text][disabled] + .wrapperText {
+  color: #fff;
+}
+body.theme-quartz .form-themed input[type=password][disabled] + .wrapperText {
+  color: #fff;
+}
+body.theme-quartz .form-themed input[type=number][disabled] + .wrapperText {
+  color: #fff;
+}
+body.theme-quartz .form-themed .btn.disabled + .wrapperText {
+  color: #fff;
+}
+body.theme-quartz .form-themed input[type=text].disabled + .wrapperText {
+  color: #fff;
+}
+body.theme-quartz .form-themed input[type=password].disabled + .wrapperText {
+  color: #fff;
+}
+body.theme-quartz .form-themed input[type=number].disabled + .wrapperText {
+  color: #fff;
+}
+body.theme-quartz .form-themed .btn[disabled]:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-quartz .form-themed input[type=text][disabled]:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-quartz .form-themed input[type=password][disabled]:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-quartz .form-themed input[type=number][disabled]:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-quartz .form-themed .btn.disabled:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-quartz .form-themed input[type=text].disabled:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-quartz .form-themed input[type=password].disabled:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-quartz .form-themed input[type=number].disabled:hover + .wrapperText {
+  color: #fff;
+}
+body.theme-quartz .form-themed .btn[disabled]:active + .wrapperText {
+  color: #fff;
+}
+body.theme-quartz .form-themed input[type=text][disabled]:active + .wrapperText {
+  color: #fff;
+}
+body.theme-quartz .form-themed input[type=password][disabled]:active + .wrapperText {
+  color: #fff;
+}
+body.theme-quartz .form-themed input[type=number][disabled]:active + .wrapperText {
+  color: #fff;
+}
+body.theme-quartz .form-themed .btn.disabled:active + .wrapperText {
+  color: #fff;
+}
+body.theme-quartz .form-themed input[type=text].disabled:active + .wrapperText {
+  color: #fff;
+}
+body.theme-quartz .form-themed input[type=password].disabled:active + .wrapperText {
+  color: #fff;
+}
+body.theme-quartz .form-themed input[type=number].disabled:active + .wrapperText {
+  color: #fff;
+}
+.form-themed input[type=text],
+.form-themed input[type=password],
+.form-themed input[type=number] {
+  font-weight: normal;
+  -webkit-transition: background-color 0.3s ease , border-color 0.3s ease;
+  -moz-transition: background-color 0.3s ease , border-color 0.3s ease;
+  -ms-transition: background-color 0.3s ease , border-color 0.3s ease;
+  -o-transition: background-color 0.3s ease , border-color 0.3s ease;
+  transition: background-color 0.3s ease , border-color 0.3s ease;
+}
+.form-themed input[type=text],
+.form-themed input[type=password],
+.form-themed input[type=number] {
+  background-color: #263340;
+}
+body.theme-tide .form-themed input[type=text] {
+  background-color: #263340;
+}
+body.theme-tide .form-themed input[type=password] {
+  background-color: #263340;
+}
+body.theme-tide .form-themed input[type=number] {
+  background-color: #263340;
+}
+body.theme-tigerlily .form-themed input[type=text] {
+  background-color: #263340;
+}
+body.theme-tigerlily .form-themed input[type=password] {
+  background-color: #263340;
+}
+body.theme-tigerlily .form-themed input[type=number] {
+  background-color: #263340;
+}
+body.theme-crickets .form-themed input[type=text] {
+  background-color: #263340;
+}
+body.theme-crickets .form-themed input[type=password] {
+  background-color: #263340;
+}
+body.theme-crickets .form-themed input[type=number] {
+  background-color: #263340;
+}
+body.theme-honeycomb .form-themed input[type=text] {
+  background-color: #263340;
+}
+body.theme-honeycomb .form-themed input[type=password] {
+  background-color: #263340;
+}
+body.theme-honeycomb .form-themed input[type=number] {
+  background-color: #263340;
+}
+body.theme-mint .form-themed input[type=text] {
+  background-color: #263340;
+}
+body.theme-mint .form-themed input[type=password] {
+  background-color: #263340;
+}
+body.theme-mint .form-themed input[type=number] {
+  background-color: #263340;
+}
+body.theme-overcast .form-themed input[type=text] {
+  background-color: #263340;
+}
+body.theme-overcast .form-themed input[type=password] {
+  background-color: #263340;
+}
+body.theme-overcast .form-themed input[type=number] {
+  background-color: #263340;
+}
+body.theme-quartz .form-themed input[type=text] {
+  background-color: #263340;
+}
+body.theme-quartz .form-themed input[type=password] {
+  background-color: #263340;
+}
+body.theme-quartz .form-themed input[type=number] {
+  background-color: #263340;
+}
+.form-themed input[type=text],
+.form-themed input[type=password],
+.form-themed input[type=number] {
+  border-color: #44626f;
+}
+body.theme-tide .form-themed input[type=text] {
+  border-color: #44626f;
+}
+body.theme-tide .form-themed input[type=password] {
+  border-color: #44626f;
+}
+body.theme-tide .form-themed input[type=number] {
+  border-color: #44626f;
+}
+body.theme-tigerlily .form-themed input[type=text] {
+  border-color: #875a86;
+}
+body.theme-tigerlily .form-themed input[type=password] {
+  border-color: #875a86;
+}
+body.theme-tigerlily .form-themed input[type=number] {
+  border-color: #875a86;
+}
+body.theme-crickets .form-themed input[type=text] {
+  border-color: #537b76;
+}
+body.theme-crickets .form-themed input[type=password] {
+  border-color: #537b76;
+}
+body.theme-crickets .form-themed input[type=number] {
+  border-color: #537b76;
+}
+body.theme-honeycomb .form-themed input[type=text] {
+  border-color: #623337;
+}
+body.theme-honeycomb .form-themed input[type=password] {
+  border-color: #623337;
+}
+body.theme-honeycomb .form-themed input[type=number] {
+  border-color: #623337;
+}
+body.theme-mint .form-themed input[type=text] {
+  border-color: #214529;
+}
+body.theme-mint .form-themed input[type=password] {
+  border-color: #214529;
+}
+body.theme-mint .form-themed input[type=number] {
+  border-color: #214529;
+}
+body.theme-overcast .form-themed input[type=text] {
+  border-color: #404040;
+}
+body.theme-overcast .form-themed input[type=password] {
+  border-color: #404040;
+}
+body.theme-overcast .form-themed input[type=number] {
+  border-color: #404040;
+}
+body.theme-quartz .form-themed input[type=text] {
+  border-color: #885b86;
+}
+body.theme-quartz .form-themed input[type=password] {
+  border-color: #885b86;
+}
+body.theme-quartz .form-themed input[type=number] {
+  border-color: #885b86;
+}
+.form-themed input[type=text],
+.form-themed input[type=password],
+.form-themed input[type=number] {
+  color: #fff;
+}
+body.theme-tide .form-themed input[type=text] {
+  color: #fff;
+}
+body.theme-tide .form-themed input[type=password] {
+  color: #fff;
+}
+body.theme-tide .form-themed input[type=number] {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed input[type=text] {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed input[type=password] {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed input[type=number] {
+  color: #fff;
+}
+body.theme-crickets .form-themed input[type=text] {
+  color: #fff;
+}
+body.theme-crickets .form-themed input[type=password] {
+  color: #fff;
+}
+body.theme-crickets .form-themed input[type=number] {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed input[type=text] {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed input[type=password] {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed input[type=number] {
+  color: #fff;
+}
+body.theme-mint .form-themed input[type=text] {
+  color: #fff;
+}
+body.theme-mint .form-themed input[type=password] {
+  color: #fff;
+}
+body.theme-mint .form-themed input[type=number] {
+  color: #fff;
+}
+body.theme-overcast .form-themed input[type=text] {
+  color: #fff;
+}
+body.theme-overcast .form-themed input[type=password] {
+  color: #fff;
+}
+body.theme-overcast .form-themed input[type=number] {
+  color: #fff;
+}
+body.theme-quartz .form-themed input[type=text] {
+  color: #fff;
+}
+body.theme-quartz .form-themed input[type=password] {
+  color: #fff;
+}
+body.theme-quartz .form-themed input[type=number] {
+  color: #fff;
+}
+.form-themed input[type=text]:active,
+.form-themed input[type=password]:active,
+.form-themed input[type=number]:active,
+.form-themed input[type=text]:focus,
+.form-themed input[type=password]:focus,
+.form-themed input[type=number]:focus {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -ms-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+}
+.form-themed input[type=text]:active,
+.form-themed input[type=password]:active,
+.form-themed input[type=number]:active,
+.form-themed input[type=text]:focus,
+.form-themed input[type=password]:focus,
+.form-themed input[type=number]:focus {
+  background-color: #16202b;
+}
+body.theme-tide .form-themed input[type=text]:active {
+  background-color: #16202b;
+}
+body.theme-tide .form-themed input[type=password]:active {
+  background-color: #16202b;
+}
+body.theme-tide .form-themed input[type=number]:active {
+  background-color: #16202b;
+}
+body.theme-tide .form-themed input[type=text]:focus {
+  background-color: #16202b;
+}
+body.theme-tide .form-themed input[type=password]:focus {
+  background-color: #16202b;
+}
+body.theme-tide .form-themed input[type=number]:focus {
+  background-color: #16202b;
+}
+body.theme-tigerlily .form-themed input[type=text]:active {
+  background-color: #26333f;
+}
+body.theme-tigerlily .form-themed input[type=password]:active {
+  background-color: #26333f;
+}
+body.theme-tigerlily .form-themed input[type=number]:active {
+  background-color: #26333f;
+}
+body.theme-tigerlily .form-themed input[type=text]:focus {
+  background-color: #26333f;
+}
+body.theme-tigerlily .form-themed input[type=password]:focus {
+  background-color: #26333f;
+}
+body.theme-tigerlily .form-themed input[type=number]:focus {
+  background-color: #26333f;
+}
+body.theme-crickets .form-themed input[type=text]:active {
+  background-color: #2b141b;
+}
+body.theme-crickets .form-themed input[type=password]:active {
+  background-color: #2b141b;
+}
+body.theme-crickets .form-themed input[type=number]:active {
+  background-color: #2b141b;
+}
+body.theme-crickets .form-themed input[type=text]:focus {
+  background-color: #2b141b;
+}
+body.theme-crickets .form-themed input[type=password]:focus {
+  background-color: #2b141b;
+}
+body.theme-crickets .form-themed input[type=number]:focus {
+  background-color: #2b141b;
+}
+body.theme-honeycomb .form-themed input[type=text]:active {
+  background-color: #252228;
+}
+body.theme-honeycomb .form-themed input[type=password]:active {
+  background-color: #252228;
+}
+body.theme-honeycomb .form-themed input[type=number]:active {
+  background-color: #252228;
+}
+body.theme-honeycomb .form-themed input[type=text]:focus {
+  background-color: #252228;
+}
+body.theme-honeycomb .form-themed input[type=password]:focus {
+  background-color: #252228;
+}
+body.theme-honeycomb .form-themed input[type=number]:focus {
+  background-color: #252228;
+}
+body.theme-mint .form-themed input[type=text]:active {
+  background-color: #1d232a;
+}
+body.theme-mint .form-themed input[type=password]:active {
+  background-color: #1d232a;
+}
+body.theme-mint .form-themed input[type=number]:active {
+  background-color: #1d232a;
+}
+body.theme-mint .form-themed input[type=text]:focus {
+  background-color: #1d232a;
+}
+body.theme-mint .form-themed input[type=password]:focus {
+  background-color: #1d232a;
+}
+body.theme-mint .form-themed input[type=number]:focus {
+  background-color: #1d232a;
+}
+body.theme-overcast .form-themed input[type=text]:active {
+  background-color: #252228;
+}
+body.theme-overcast .form-themed input[type=password]:active {
+  background-color: #252228;
+}
+body.theme-overcast .form-themed input[type=number]:active {
+  background-color: #252228;
+}
+body.theme-overcast .form-themed input[type=text]:focus {
+  background-color: #252228;
+}
+body.theme-overcast .form-themed input[type=password]:focus {
+  background-color: #252228;
+}
+body.theme-overcast .form-themed input[type=number]:focus {
+  background-color: #252228;
+}
+body.theme-quartz .form-themed input[type=text]:active {
+  background-color: #2b2e3f;
+}
+body.theme-quartz .form-themed input[type=password]:active {
+  background-color: #2b2e3f;
+}
+body.theme-quartz .form-themed input[type=number]:active {
+  background-color: #2b2e3f;
+}
+body.theme-quartz .form-themed input[type=text]:focus {
+  background-color: #2b2e3f;
+}
+body.theme-quartz .form-themed input[type=password]:focus {
+  background-color: #2b2e3f;
+}
+body.theme-quartz .form-themed input[type=number]:focus {
+  background-color: #2b2e3f;
+}
+.form-themed input[type=text]:active,
+.form-themed input[type=password]:active,
+.form-themed input[type=number]:active,
+.form-themed input[type=text]:focus,
+.form-themed input[type=password]:focus,
+.form-themed input[type=number]:focus {
+  border-color: #20a5d6;
+}
+body.theme-tide .form-themed input[type=text]:active {
+  border-color: #20a5d6;
+}
+body.theme-tide .form-themed input[type=password]:active {
+  border-color: #20a5d6;
+}
+body.theme-tide .form-themed input[type=number]:active {
+  border-color: #20a5d6;
+}
+body.theme-tide .form-themed input[type=text]:focus {
+  border-color: #20a5d6;
+}
+body.theme-tide .form-themed input[type=password]:focus {
+  border-color: #20a5d6;
+}
+body.theme-tide .form-themed input[type=number]:focus {
+  border-color: #20a5d6;
+}
+body.theme-tigerlily .form-themed input[type=text]:active {
+  border-color: #fa8947;
+}
+body.theme-tigerlily .form-themed input[type=password]:active {
+  border-color: #fa8947;
+}
+body.theme-tigerlily .form-themed input[type=number]:active {
+  border-color: #fa8947;
+}
+body.theme-tigerlily .form-themed input[type=text]:focus {
+  border-color: #fa8947;
+}
+body.theme-tigerlily .form-themed input[type=password]:focus {
+  border-color: #fa8947;
+}
+body.theme-tigerlily .form-themed input[type=number]:focus {
+  border-color: #fa8947;
+}
+body.theme-crickets .form-themed input[type=text]:active {
+  border-color: #d4c3c1;
+}
+body.theme-crickets .form-themed input[type=password]:active {
+  border-color: #d4c3c1;
+}
+body.theme-crickets .form-themed input[type=number]:active {
+  border-color: #d4c3c1;
+}
+body.theme-crickets .form-themed input[type=text]:focus {
+  border-color: #d4c3c1;
+}
+body.theme-crickets .form-themed input[type=password]:focus {
+  border-color: #d4c3c1;
+}
+body.theme-crickets .form-themed input[type=number]:focus {
+  border-color: #d4c3c1;
+}
+body.theme-honeycomb .form-themed input[type=text]:active {
+  border-color: #cda56b;
+}
+body.theme-honeycomb .form-themed input[type=password]:active {
+  border-color: #cda56b;
+}
+body.theme-honeycomb .form-themed input[type=number]:active {
+  border-color: #cda56b;
+}
+body.theme-honeycomb .form-themed input[type=text]:focus {
+  border-color: #cda56b;
+}
+body.theme-honeycomb .form-themed input[type=password]:focus {
+  border-color: #cda56b;
+}
+body.theme-honeycomb .form-themed input[type=number]:focus {
+  border-color: #cda56b;
+}
+body.theme-mint .form-themed input[type=text]:active {
+  border-color: #31b166;
+}
+body.theme-mint .form-themed input[type=password]:active {
+  border-color: #31b166;
+}
+body.theme-mint .form-themed input[type=number]:active {
+  border-color: #31b166;
+}
+body.theme-mint .form-themed input[type=text]:focus {
+  border-color: #31b166;
+}
+body.theme-mint .form-themed input[type=password]:focus {
+  border-color: #31b166;
+}
+body.theme-mint .form-themed input[type=number]:focus {
+  border-color: #31b166;
+}
+body.theme-overcast .form-themed input[type=text]:active {
+  border-color: #507d80;
+}
+body.theme-overcast .form-themed input[type=password]:active {
+  border-color: #507d80;
+}
+body.theme-overcast .form-themed input[type=number]:active {
+  border-color: #507d80;
+}
+body.theme-overcast .form-themed input[type=text]:focus {
+  border-color: #507d80;
+}
+body.theme-overcast .form-themed input[type=password]:focus {
+  border-color: #507d80;
+}
+body.theme-overcast .form-themed input[type=number]:focus {
+  border-color: #507d80;
+}
+body.theme-quartz .form-themed input[type=text]:active {
+  border-color: #7858ce;
+}
+body.theme-quartz .form-themed input[type=password]:active {
+  border-color: #7858ce;
+}
+body.theme-quartz .form-themed input[type=number]:active {
+  border-color: #7858ce;
+}
+body.theme-quartz .form-themed input[type=text]:focus {
+  border-color: #7858ce;
+}
+body.theme-quartz .form-themed input[type=password]:focus {
+  border-color: #7858ce;
+}
+body.theme-quartz .form-themed input[type=number]:focus {
+  border-color: #7858ce;
+}
+.form-themed input[type=text]:active + .wrapperText,
+.form-themed input[type=password]:active + .wrapperText,
+.form-themed input[type=number]:active + .wrapperText,
+.form-themed input[type=text]:focus + .wrapperText,
+.form-themed input[type=password]:focus + .wrapperText,
+.form-themed input[type=number]:focus + .wrapperText {
+  color: #20a5d6;
+}
+body.theme-tide .form-themed input[type=text]:active + .wrapperText {
+  color: #20a5d6;
+}
+body.theme-tide .form-themed input[type=password]:active + .wrapperText {
+  color: #20a5d6;
+}
+body.theme-tide .form-themed input[type=number]:active + .wrapperText {
+  color: #20a5d6;
+}
+body.theme-tide .form-themed input[type=text]:focus + .wrapperText {
+  color: #20a5d6;
+}
+body.theme-tide .form-themed input[type=password]:focus + .wrapperText {
+  color: #20a5d6;
+}
+body.theme-tide .form-themed input[type=number]:focus + .wrapperText {
+  color: #20a5d6;
+}
+body.theme-tigerlily .form-themed input[type=text]:active + .wrapperText {
+  color: #fa8947;
+}
+body.theme-tigerlily .form-themed input[type=password]:active + .wrapperText {
+  color: #fa8947;
+}
+body.theme-tigerlily .form-themed input[type=number]:active + .wrapperText {
+  color: #fa8947;
+}
+body.theme-tigerlily .form-themed input[type=text]:focus + .wrapperText {
+  color: #fa8947;
+}
+body.theme-tigerlily .form-themed input[type=password]:focus + .wrapperText {
+  color: #fa8947;
+}
+body.theme-tigerlily .form-themed input[type=number]:focus + .wrapperText {
+  color: #fa8947;
+}
+body.theme-crickets .form-themed input[type=text]:active + .wrapperText {
+  color: #d4c3c1;
+}
+body.theme-crickets .form-themed input[type=password]:active + .wrapperText {
+  color: #d4c3c1;
+}
+body.theme-crickets .form-themed input[type=number]:active + .wrapperText {
+  color: #d4c3c1;
+}
+body.theme-crickets .form-themed input[type=text]:focus + .wrapperText {
+  color: #d4c3c1;
+}
+body.theme-crickets .form-themed input[type=password]:focus + .wrapperText {
+  color: #d4c3c1;
+}
+body.theme-crickets .form-themed input[type=number]:focus + .wrapperText {
+  color: #d4c3c1;
+}
+body.theme-honeycomb .form-themed input[type=text]:active + .wrapperText {
+  color: #cda56b;
+}
+body.theme-honeycomb .form-themed input[type=password]:active + .wrapperText {
+  color: #cda56b;
+}
+body.theme-honeycomb .form-themed input[type=number]:active + .wrapperText {
+  color: #cda56b;
+}
+body.theme-honeycomb .form-themed input[type=text]:focus + .wrapperText {
+  color: #cda56b;
+}
+body.theme-honeycomb .form-themed input[type=password]:focus + .wrapperText {
+  color: #cda56b;
+}
+body.theme-honeycomb .form-themed input[type=number]:focus + .wrapperText {
+  color: #cda56b;
+}
+body.theme-mint .form-themed input[type=text]:active + .wrapperText {
+  color: #31b166;
+}
+body.theme-mint .form-themed input[type=password]:active + .wrapperText {
+  color: #31b166;
+}
+body.theme-mint .form-themed input[type=number]:active + .wrapperText {
+  color: #31b166;
+}
+body.theme-mint .form-themed input[type=text]:focus + .wrapperText {
+  color: #31b166;
+}
+body.theme-mint .form-themed input[type=password]:focus + .wrapperText {
+  color: #31b166;
+}
+body.theme-mint .form-themed input[type=number]:focus + .wrapperText {
+  color: #31b166;
+}
+body.theme-overcast .form-themed input[type=text]:active + .wrapperText {
+  color: #507d80;
+}
+body.theme-overcast .form-themed input[type=password]:active + .wrapperText {
+  color: #507d80;
+}
+body.theme-overcast .form-themed input[type=number]:active + .wrapperText {
+  color: #507d80;
+}
+body.theme-overcast .form-themed input[type=text]:focus + .wrapperText {
+  color: #507d80;
+}
+body.theme-overcast .form-themed input[type=password]:focus + .wrapperText {
+  color: #507d80;
+}
+body.theme-overcast .form-themed input[type=number]:focus + .wrapperText {
+  color: #507d80;
+}
+body.theme-quartz .form-themed input[type=text]:active + .wrapperText {
+  color: #7858ce;
+}
+body.theme-quartz .form-themed input[type=password]:active + .wrapperText {
+  color: #7858ce;
+}
+body.theme-quartz .form-themed input[type=number]:active + .wrapperText {
+  color: #7858ce;
+}
+body.theme-quartz .form-themed input[type=text]:focus + .wrapperText {
+  color: #7858ce;
+}
+body.theme-quartz .form-themed input[type=password]:focus + .wrapperText {
+  color: #7858ce;
+}
+body.theme-quartz .form-themed input[type=number]:focus + .wrapperText {
+  color: #7858ce;
+}
+.form-themed .btn-primary {
+  -webkit-transition: background-color 0.3s ease , border-color 0.3s ease;
+  -moz-transition: background-color 0.3s ease , border-color 0.3s ease;
+  -ms-transition: background-color 0.3s ease , border-color 0.3s ease;
+  -o-transition: background-color 0.3s ease , border-color 0.3s ease;
+  transition: background-color 0.3s ease , border-color 0.3s ease;
+}
+.form-themed .btn-primary {
+  background-color: #20a5d6;
+}
+body.theme-tide .form-themed .btn-primary {
+  background-color: #20a5d6;
+}
+body.theme-tigerlily .form-themed .btn-primary {
+  background-color: #fa8947;
+}
+body.theme-crickets .form-themed .btn-primary {
+  background-color: #d4c3c1;
+}
+body.theme-honeycomb .form-themed .btn-primary {
+  background-color: #cda56b;
+}
+body.theme-mint .form-themed .btn-primary {
+  background-color: #31b166;
+}
+body.theme-overcast .form-themed .btn-primary {
+  background-color: #507d80;
+}
+body.theme-quartz .form-themed .btn-primary {
+  background-color: #7858ce;
+}
+.form-themed .btn-primary {
+  border-color: #00a4d9;
+}
+body.theme-tide .form-themed .btn-primary {
+  border-color: #00a4d9;
+}
+body.theme-tigerlily .form-themed .btn-primary {
+  border-color: #ff8a3d;
+}
+body.theme-crickets .form-themed .btn-primary {
+  border-color: #d4aaa5;
+}
+body.theme-honeycomb .form-themed .btn-primary {
+  border-color: #ce9e59;
+}
+body.theme-mint .form-themed .btn-primary {
+  border-color: #23b15d;
+}
+body.theme-overcast .form-themed .btn-primary {
+  border-color: #467c80;
+}
+body.theme-quartz .form-themed .btn-primary {
+  border-color: #6843cc;
+}
+.form-themed .btn-primary {
+  color: #000;
+}
+body.theme-tide .form-themed .btn-primary {
+  color: #000;
+}
+body.theme-tigerlily .form-themed .btn-primary {
+  color: #000;
+}
+body.theme-crickets .form-themed .btn-primary {
+  color: #000;
+}
+body.theme-honeycomb .form-themed .btn-primary {
+  color: #000;
+}
+body.theme-mint .form-themed .btn-primary {
+  color: #000;
+}
+body.theme-overcast .form-themed .btn-primary {
+  color: #000;
+}
+body.theme-quartz .form-themed .btn-primary {
+  color: #000;
+}
+.form-themed .btn-primary:hover,
+.form-themed .btn-primary:active,
+.form-themed .btn-primary:focus,
+.form-themed .btn-primary:focus:active {
+  background-color: rgba(32,165,214,0.8);
+}
+body.theme-tide .form-themed .btn-primary:hover {
+  background-color: rgba(32,165,214,0.8);
+}
+body.theme-tide .form-themed .btn-primary:active {
+  background-color: rgba(32,165,214,0.8);
+}
+body.theme-tide .form-themed .btn-primary:focus {
+  background-color: rgba(32,165,214,0.8);
+}
+body.theme-tide .form-themed .btn-primary:focus:active {
+  background-color: rgba(32,165,214,0.8);
+}
+body.theme-tigerlily .form-themed .btn-primary:hover {
+  background-color: rgba(250,137,71,0.8);
+}
+body.theme-tigerlily .form-themed .btn-primary:active {
+  background-color: rgba(250,137,71,0.8);
+}
+body.theme-tigerlily .form-themed .btn-primary:focus {
+  background-color: rgba(250,137,71,0.8);
+}
+body.theme-tigerlily .form-themed .btn-primary:focus:active {
+  background-color: rgba(250,137,71,0.8);
+}
+body.theme-crickets .form-themed .btn-primary:hover {
+  background-color: rgba(212,195,193,0.8);
+}
+body.theme-crickets .form-themed .btn-primary:active {
+  background-color: rgba(212,195,193,0.8);
+}
+body.theme-crickets .form-themed .btn-primary:focus {
+  background-color: rgba(212,195,193,0.8);
+}
+body.theme-crickets .form-themed .btn-primary:focus:active {
+  background-color: rgba(212,195,193,0.8);
+}
+body.theme-honeycomb .form-themed .btn-primary:hover {
+  background-color: rgba(205,165,107,0.8);
+}
+body.theme-honeycomb .form-themed .btn-primary:active {
+  background-color: rgba(205,165,107,0.8);
+}
+body.theme-honeycomb .form-themed .btn-primary:focus {
+  background-color: rgba(205,165,107,0.8);
+}
+body.theme-honeycomb .form-themed .btn-primary:focus:active {
+  background-color: rgba(205,165,107,0.8);
+}
+body.theme-mint .form-themed .btn-primary:hover {
+  background-color: rgba(49,177,102,0.8);
+}
+body.theme-mint .form-themed .btn-primary:active {
+  background-color: rgba(49,177,102,0.8);
+}
+body.theme-mint .form-themed .btn-primary:focus {
+  background-color: rgba(49,177,102,0.8);
+}
+body.theme-mint .form-themed .btn-primary:focus:active {
+  background-color: rgba(49,177,102,0.8);
+}
+body.theme-overcast .form-themed .btn-primary:hover {
+  background-color: rgba(80,125,128,0.8);
+}
+body.theme-overcast .form-themed .btn-primary:active {
+  background-color: rgba(80,125,128,0.8);
+}
+body.theme-overcast .form-themed .btn-primary:focus {
+  background-color: rgba(80,125,128,0.8);
+}
+body.theme-overcast .form-themed .btn-primary:focus:active {
+  background-color: rgba(80,125,128,0.8);
+}
+body.theme-quartz .form-themed .btn-primary:hover {
+  background-color: rgba(120,88,206,0.8);
+}
+body.theme-quartz .form-themed .btn-primary:active {
+  background-color: rgba(120,88,206,0.8);
+}
+body.theme-quartz .form-themed .btn-primary:focus {
+  background-color: rgba(120,88,206,0.8);
+}
+body.theme-quartz .form-themed .btn-primary:focus:active {
+  background-color: rgba(120,88,206,0.8);
+}
+.form-themed .btn-primary:hover,
+.form-themed .btn-primary:active,
+.form-themed .btn-primary:focus,
+.form-themed .btn-primary:focus:active {
+  border-color: rgba(0,164,217,0.8);
+}
+body.theme-tide .form-themed .btn-primary:hover {
+  border-color: rgba(0,164,217,0.8);
+}
+body.theme-tide .form-themed .btn-primary:active {
+  border-color: rgba(0,164,217,0.8);
+}
+body.theme-tide .form-themed .btn-primary:focus {
+  border-color: rgba(0,164,217,0.8);
+}
+body.theme-tide .form-themed .btn-primary:focus:active {
+  border-color: rgba(0,164,217,0.8);
+}
+body.theme-tigerlily .form-themed .btn-primary:hover {
+  border-color: rgba(255,138,61,0.8);
+}
+body.theme-tigerlily .form-themed .btn-primary:active {
+  border-color: rgba(255,138,61,0.8);
+}
+body.theme-tigerlily .form-themed .btn-primary:focus {
+  border-color: rgba(255,138,61,0.8);
+}
+body.theme-tigerlily .form-themed .btn-primary:focus:active {
+  border-color: rgba(255,138,61,0.8);
+}
+body.theme-crickets .form-themed .btn-primary:hover {
+  border-color: rgba(212,170,165,0.8);
+}
+body.theme-crickets .form-themed .btn-primary:active {
+  border-color: rgba(212,170,165,0.8);
+}
+body.theme-crickets .form-themed .btn-primary:focus {
+  border-color: rgba(212,170,165,0.8);
+}
+body.theme-crickets .form-themed .btn-primary:focus:active {
+  border-color: rgba(212,170,165,0.8);
+}
+body.theme-honeycomb .form-themed .btn-primary:hover {
+  border-color: rgba(206,158,89,0.8);
+}
+body.theme-honeycomb .form-themed .btn-primary:active {
+  border-color: rgba(206,158,89,0.8);
+}
+body.theme-honeycomb .form-themed .btn-primary:focus {
+  border-color: rgba(206,158,89,0.8);
+}
+body.theme-honeycomb .form-themed .btn-primary:focus:active {
+  border-color: rgba(206,158,89,0.8);
+}
+body.theme-mint .form-themed .btn-primary:hover {
+  border-color: rgba(35,177,93,0.8);
+}
+body.theme-mint .form-themed .btn-primary:active {
+  border-color: rgba(35,177,93,0.8);
+}
+body.theme-mint .form-themed .btn-primary:focus {
+  border-color: rgba(35,177,93,0.8);
+}
+body.theme-mint .form-themed .btn-primary:focus:active {
+  border-color: rgba(35,177,93,0.8);
+}
+body.theme-overcast .form-themed .btn-primary:hover {
+  border-color: rgba(70,124,128,0.8);
+}
+body.theme-overcast .form-themed .btn-primary:active {
+  border-color: rgba(70,124,128,0.8);
+}
+body.theme-overcast .form-themed .btn-primary:focus {
+  border-color: rgba(70,124,128,0.8);
+}
+body.theme-overcast .form-themed .btn-primary:focus:active {
+  border-color: rgba(70,124,128,0.8);
+}
+body.theme-quartz .form-themed .btn-primary:hover {
+  border-color: rgba(104,67,204,0.8);
+}
+body.theme-quartz .form-themed .btn-primary:active {
+  border-color: rgba(104,67,204,0.8);
+}
+body.theme-quartz .form-themed .btn-primary:focus {
+  border-color: rgba(104,67,204,0.8);
+}
+body.theme-quartz .form-themed .btn-primary:focus:active {
+  border-color: rgba(104,67,204,0.8);
+}
+.form-themed .btn-primary:hover,
+.form-themed .btn-primary:active,
+.form-themed .btn-primary:focus,
+.form-themed .btn-primary:focus:active {
+  color: #000;
+}
+body.theme-tide .form-themed .btn-primary:hover {
+  color: #000;
+}
+body.theme-tide .form-themed .btn-primary:active {
+  color: #000;
+}
+body.theme-tide .form-themed .btn-primary:focus {
+  color: #000;
+}
+body.theme-tide .form-themed .btn-primary:focus:active {
+  color: #000;
+}
+body.theme-tigerlily .form-themed .btn-primary:hover {
+  color: #000;
+}
+body.theme-tigerlily .form-themed .btn-primary:active {
+  color: #000;
+}
+body.theme-tigerlily .form-themed .btn-primary:focus {
+  color: #000;
+}
+body.theme-tigerlily .form-themed .btn-primary:focus:active {
+  color: #000;
+}
+body.theme-crickets .form-themed .btn-primary:hover {
+  color: #000;
+}
+body.theme-crickets .form-themed .btn-primary:active {
+  color: #000;
+}
+body.theme-crickets .form-themed .btn-primary:focus {
+  color: #000;
+}
+body.theme-crickets .form-themed .btn-primary:focus:active {
+  color: #000;
+}
+body.theme-honeycomb .form-themed .btn-primary:hover {
+  color: #000;
+}
+body.theme-honeycomb .form-themed .btn-primary:active {
+  color: #000;
+}
+body.theme-honeycomb .form-themed .btn-primary:focus {
+  color: #000;
+}
+body.theme-honeycomb .form-themed .btn-primary:focus:active {
+  color: #000;
+}
+body.theme-mint .form-themed .btn-primary:hover {
+  color: #000;
+}
+body.theme-mint .form-themed .btn-primary:active {
+  color: #000;
+}
+body.theme-mint .form-themed .btn-primary:focus {
+  color: #000;
+}
+body.theme-mint .form-themed .btn-primary:focus:active {
+  color: #000;
+}
+body.theme-overcast .form-themed .btn-primary:hover {
+  color: #000;
+}
+body.theme-overcast .form-themed .btn-primary:active {
+  color: #000;
+}
+body.theme-overcast .form-themed .btn-primary:focus {
+  color: #000;
+}
+body.theme-overcast .form-themed .btn-primary:focus:active {
+  color: #000;
+}
+body.theme-quartz .form-themed .btn-primary:hover {
+  color: #000;
+}
+body.theme-quartz .form-themed .btn-primary:active {
+  color: #000;
+}
+body.theme-quartz .form-themed .btn-primary:focus {
+  color: #000;
+}
+body.theme-quartz .form-themed .btn-primary:focus:active {
+  color: #000;
+}
+.form-themed span.select2.select2-container {
+  width: 100% !important;
+}
+.form-themed span.select2.select2-container span.select2-selection {
+  color: rgba(255,255,255,0.52);
+  background-color: #2c353f;
+}
+.form-themed span.select2.select2-container span.select2-selection span.select2-selection__arrow {
+  background-color: #263340;
+}
+body.theme-tide .form-themed span.select2.select2-container span.select2-selection span.select2-selection__arrow {
+  background-color: #263340;
+}
+body.theme-tigerlily .form-themed span.select2.select2-container span.select2-selection span.select2-selection__arrow {
+  background-color: #263340;
+}
+body.theme-crickets .form-themed span.select2.select2-container span.select2-selection span.select2-selection__arrow {
+  background-color: #263340;
+}
+body.theme-honeycomb .form-themed span.select2.select2-container span.select2-selection span.select2-selection__arrow {
+  background-color: #263340;
+}
+body.theme-mint .form-themed span.select2.select2-container span.select2-selection span.select2-selection__arrow {
+  background-color: #263340;
+}
+body.theme-overcast .form-themed span.select2.select2-container span.select2-selection span.select2-selection__arrow {
+  background-color: #263340;
+}
+body.theme-quartz .form-themed span.select2.select2-container span.select2-selection span.select2-selection__arrow {
+  background-color: #263340;
+}
+.form-themed span.select2.select2-container span.select2-selection:hover span.select2-selection__arrow,
+.form-themed span.select2.select2-container span.select2-selection:focus span.select2-selection__arrow {
+  background-color: #263340;
+}
+body.theme-tide .form-themed span.select2.select2-container span.select2-selection:hover span.select2-selection__arrow {
+  background-color: #263340;
+}
+body.theme-tide .form-themed span.select2.select2-container span.select2-selection:focus span.select2-selection__arrow {
+  background-color: #263340;
+}
+body.theme-tigerlily .form-themed span.select2.select2-container span.select2-selection:hover span.select2-selection__arrow {
+  background-color: #263340;
+}
+body.theme-tigerlily .form-themed span.select2.select2-container span.select2-selection:focus span.select2-selection__arrow {
+  background-color: #263340;
+}
+body.theme-crickets .form-themed span.select2.select2-container span.select2-selection:hover span.select2-selection__arrow {
+  background-color: #263340;
+}
+body.theme-crickets .form-themed span.select2.select2-container span.select2-selection:focus span.select2-selection__arrow {
+  background-color: #263340;
+}
+body.theme-honeycomb .form-themed span.select2.select2-container span.select2-selection:hover span.select2-selection__arrow {
+  background-color: #263340;
+}
+body.theme-honeycomb .form-themed span.select2.select2-container span.select2-selection:focus span.select2-selection__arrow {
+  background-color: #263340;
+}
+body.theme-mint .form-themed span.select2.select2-container span.select2-selection:hover span.select2-selection__arrow {
+  background-color: #263340;
+}
+body.theme-mint .form-themed span.select2.select2-container span.select2-selection:focus span.select2-selection__arrow {
+  background-color: #263340;
+}
+body.theme-overcast .form-themed span.select2.select2-container span.select2-selection:hover span.select2-selection__arrow {
+  background-color: #263340;
+}
+body.theme-overcast .form-themed span.select2.select2-container span.select2-selection:focus span.select2-selection__arrow {
+  background-color: #263340;
+}
+body.theme-quartz .form-themed span.select2.select2-container span.select2-selection:hover span.select2-selection__arrow {
+  background-color: #263340;
+}
+body.theme-quartz .form-themed span.select2.select2-container span.select2-selection:focus span.select2-selection__arrow {
+  background-color: #263340;
+}
+.form-themed span.select2.select2-container span.select2-selection:hover span.select2-selection__arrow,
+.form-themed span.select2.select2-container span.select2-selection:focus span.select2-selection__arrow {
+  color: #fff;
+}
+body.theme-tide .form-themed span.select2.select2-container span.select2-selection:hover span.select2-selection__arrow {
+  color: #fff;
+}
+body.theme-tide .form-themed span.select2.select2-container span.select2-selection:focus span.select2-selection__arrow {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed span.select2.select2-container span.select2-selection:hover span.select2-selection__arrow {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed span.select2.select2-container span.select2-selection:focus span.select2-selection__arrow {
+  color: #fff;
+}
+body.theme-crickets .form-themed span.select2.select2-container span.select2-selection:hover span.select2-selection__arrow {
+  color: #fff;
+}
+body.theme-crickets .form-themed span.select2.select2-container span.select2-selection:focus span.select2-selection__arrow {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed span.select2.select2-container span.select2-selection:hover span.select2-selection__arrow {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed span.select2.select2-container span.select2-selection:focus span.select2-selection__arrow {
+  color: #fff;
+}
+body.theme-mint .form-themed span.select2.select2-container span.select2-selection:hover span.select2-selection__arrow {
+  color: #fff;
+}
+body.theme-mint .form-themed span.select2.select2-container span.select2-selection:focus span.select2-selection__arrow {
+  color: #fff;
+}
+body.theme-overcast .form-themed span.select2.select2-container span.select2-selection:hover span.select2-selection__arrow {
+  color: #fff;
+}
+body.theme-overcast .form-themed span.select2.select2-container span.select2-selection:focus span.select2-selection__arrow {
+  color: #fff;
+}
+body.theme-quartz .form-themed span.select2.select2-container span.select2-selection:hover span.select2-selection__arrow {
+  color: #fff;
+}
+body.theme-quartz .form-themed span.select2.select2-container span.select2-selection:focus span.select2-selection__arrow {
+  color: #fff;
+}
+.form-themed span.select2.select2-container span.select2-selection span.select2-selection__rendered {
+  font-size: 14px;
+}
+.form-themed span.select2.select2-container span.select2-selection span.select2-selection__rendered {
+  color: #fff;
+}
+body.theme-tide .form-themed span.select2.select2-container span.select2-selection span.select2-selection__rendered {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed span.select2.select2-container span.select2-selection span.select2-selection__rendered {
+  color: #fff;
+}
+body.theme-crickets .form-themed span.select2.select2-container span.select2-selection span.select2-selection__rendered {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed span.select2.select2-container span.select2-selection span.select2-selection__rendered {
+  color: #fff;
+}
+body.theme-mint .form-themed span.select2.select2-container span.select2-selection span.select2-selection__rendered {
+  color: #fff;
+}
+body.theme-overcast .form-themed span.select2.select2-container span.select2-selection span.select2-selection__rendered {
+  color: #fff;
+}
+body.theme-quartz .form-themed span.select2.select2-container span.select2-selection span.select2-selection__rendered {
+  color: #fff;
+}
+.form-themed span.select2.select2-container.select2-container--open span.select2-selection span.select2-selection__arrow {
+  background-color: #16202b;
+}
+body.theme-tide .form-themed span.select2.select2-container.select2-container--open span.select2-selection span.select2-selection__arrow {
+  background-color: #16202b;
+}
+body.theme-tigerlily .form-themed span.select2.select2-container.select2-container--open span.select2-selection span.select2-selection__arrow {
+  background-color: #26333f;
+}
+body.theme-crickets .form-themed span.select2.select2-container.select2-container--open span.select2-selection span.select2-selection__arrow {
+  background-color: #2b141b;
+}
+body.theme-honeycomb .form-themed span.select2.select2-container.select2-container--open span.select2-selection span.select2-selection__arrow {
+  background-color: #252228;
+}
+body.theme-mint .form-themed span.select2.select2-container.select2-container--open span.select2-selection span.select2-selection__arrow {
+  background-color: #1d232a;
+}
+body.theme-overcast .form-themed span.select2.select2-container.select2-container--open span.select2-selection span.select2-selection__arrow {
+  background-color: #252228;
+}
+body.theme-quartz .form-themed span.select2.select2-container.select2-container--open span.select2-selection span.select2-selection__arrow {
+  background-color: #2b2e3f;
+}
+.form-themed span.select2.select2-container.select2-container--open span.select2-selection span.select2-selection__arrow {
+  color: #fff;
+}
+body.theme-tide .form-themed span.select2.select2-container.select2-container--open span.select2-selection span.select2-selection__arrow {
+  color: #fff;
+}
+body.theme-tigerlily .form-themed span.select2.select2-container.select2-container--open span.select2-selection span.select2-selection__arrow {
+  color: #fff;
+}
+body.theme-crickets .form-themed span.select2.select2-container.select2-container--open span.select2-selection span.select2-selection__arrow {
+  color: #fff;
+}
+body.theme-honeycomb .form-themed span.select2.select2-container.select2-container--open span.select2-selection span.select2-selection__arrow {
+  color: #fff;
+}
+body.theme-mint .form-themed span.select2.select2-container.select2-container--open span.select2-selection span.select2-selection__arrow {
+  color: #fff;
+}
+body.theme-overcast .form-themed span.select2.select2-container.select2-container--open span.select2-selection span.select2-selection__arrow {
+  color: #fff;
+}
+body.theme-quartz .form-themed span.select2.select2-container.select2-container--open span.select2-selection span.select2-selection__arrow {
+  color: #fff;
+}

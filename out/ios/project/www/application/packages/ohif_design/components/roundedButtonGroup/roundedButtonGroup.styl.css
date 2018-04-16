@@ -1,0 +1,482 @@
+.theme-icon-crickets,
+.theme-icon-tide,
+.theme-icon-tigerlily,
+.theme-icon-quartz,
+.theme-icon-overcast,
+.theme-icon-mint,
+.theme-icon-honeycomb {
+  display: inline-block;
+  background: url("/packages/ohif_design/assets/theme-icons.png") no-repeat;
+  overflow: hidden;
+  text-indent: -9999px;
+  text-align: left;
+}
+.theme-icon-crickets {
+  background-position: 0px 0px;
+  width: 64px;
+  height: 56px;
+}
+.theme-icon-tide {
+  background-position: 0px -56px;
+  width: 64px;
+  height: 54px;
+}
+.theme-icon-tigerlily {
+  background-position: 0px -110px;
+  width: 62px;
+  height: 61px;
+}
+.theme-icon-quartz {
+  background-position: 0px -171px;
+  width: 59px;
+  height: 64px;
+}
+.theme-icon-overcast {
+  background-position: 0px -235px;
+  width: 58px;
+  height: 37px;
+}
+.theme-icon-mint {
+  background-position: 0px -272px;
+  width: 57px;
+  height: 61px;
+}
+.theme-icon-honeycomb {
+  background-position: 0px -333px;
+  width: 50px;
+  height: 58px;
+}
+.roundedButtonGroup {
+  position: relative;
+  z-index: 0;
+}
+.roundedButtonGroup .roundedButtonWrapper {
+  cursor: pointer;
+  display: inline-block;
+  float: left;
+  margin-left: -2px;
+  text-decoration: none;
+  text-align: center;
+}
+.roundedButtonGroup .roundedButtonWrapper.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.roundedButtonGroup .roundedButtonWrapper .roundedButton {
+  align-items: center;
+  display: flex;
+  font-size: 11px;
+  font-weight: 500;
+  justify-content: center;
+  height: 25px;
+  line-height: 25px;
+  padding: 0 22px;
+  position: relative;
+  text-transform: uppercase;
+  -webkit-transition: transition: all 0.3s ease;;
+  -moz-transition: transition: all 0.3s ease;;
+  -ms-transition: transition: all 0.3s ease;;
+  -o-transition: transition: all 0.3s ease;;
+  transition: transition: all 0.3s ease;;
+  z-index: 1;
+}
+.roundedButtonGroup .roundedButtonWrapper .roundedButton {
+  background-color: #16202b;
+}
+body.theme-tide .roundedButtonGroup .roundedButtonWrapper .roundedButton {
+  background-color: #16202b;
+}
+body.theme-tigerlily .roundedButtonGroup .roundedButtonWrapper .roundedButton {
+  background-color: #26333f;
+}
+body.theme-crickets .roundedButtonGroup .roundedButtonWrapper .roundedButton {
+  background-color: #2b141b;
+}
+body.theme-honeycomb .roundedButtonGroup .roundedButtonWrapper .roundedButton {
+  background-color: #252228;
+}
+body.theme-mint .roundedButtonGroup .roundedButtonWrapper .roundedButton {
+  background-color: #1d232a;
+}
+body.theme-overcast .roundedButtonGroup .roundedButtonWrapper .roundedButton {
+  background-color: #252228;
+}
+body.theme-quartz .roundedButtonGroup .roundedButtonWrapper .roundedButton {
+  background-color: #2b2e3f;
+}
+.roundedButtonGroup .roundedButtonWrapper .roundedButton {
+  border: 2px solid #3c5d80;
+}
+body.theme-tide .roundedButtonGroup .roundedButtonWrapper .roundedButton {
+  border: 2px solid #3c5d80;
+}
+body.theme-tigerlily .roundedButtonGroup .roundedButtonWrapper .roundedButton {
+  border: 2px solid #744b71;
+}
+body.theme-crickets .roundedButtonGroup .roundedButtonWrapper .roundedButton {
+  border: 2px solid #3c5d80;
+}
+body.theme-honeycomb .roundedButtonGroup .roundedButtonWrapper .roundedButton {
+  border: 2px solid #3c5d80;
+}
+body.theme-mint .roundedButtonGroup .roundedButtonWrapper .roundedButton {
+  border: 2px solid #3c5d80;
+}
+body.theme-overcast .roundedButtonGroup .roundedButtonWrapper .roundedButton {
+  border: 2px solid #3c5d80;
+}
+body.theme-quartz .roundedButtonGroup .roundedButtonWrapper .roundedButton {
+  border: 2px solid #3c5d80;
+}
+.roundedButtonGroup .roundedButtonWrapper .roundedButton {
+  color: #91b9cd;
+}
+body.theme-tide .roundedButtonGroup .roundedButtonWrapper .roundedButton {
+  color: #91b9cd;
+}
+body.theme-tigerlily .roundedButtonGroup .roundedButtonWrapper .roundedButton {
+  color: #9ccdf8;
+}
+body.theme-crickets .roundedButtonGroup .roundedButtonWrapper .roundedButton {
+  color: #8be7b5;
+}
+body.theme-honeycomb .roundedButtonGroup .roundedButtonWrapper .roundedButton {
+  color: #fab797;
+}
+body.theme-mint .roundedButtonGroup .roundedButtonWrapper .roundedButton {
+  color: #a7e9b3;
+}
+body.theme-overcast .roundedButtonGroup .roundedButtonWrapper .roundedButton {
+  color: #73f2fc;
+}
+body.theme-quartz .roundedButtonGroup .roundedButtonWrapper .roundedButton {
+  color: #d7e8fe;
+}
+.roundedButtonGroup .roundedButtonWrapper .roundedButton svg {
+  fill: #9ccef9;
+}
+body.theme-tide .roundedButtonGroup .roundedButtonWrapper .roundedButton svg {
+  fill: #9ccef9;
+}
+body.theme-tigerlily .roundedButtonGroup .roundedButtonWrapper .roundedButton svg {
+  fill: #9acffd;
+}
+body.theme-crickets .roundedButtonGroup .roundedButtonWrapper .roundedButton svg {
+  fill: #92c2da;
+}
+body.theme-honeycomb .roundedButtonGroup .roundedButtonWrapper .roundedButton svg {
+  fill: #b5b5b5;
+}
+body.theme-mint .roundedButtonGroup .roundedButtonWrapper .roundedButton svg {
+  fill: #a7e9b3;
+}
+body.theme-overcast .roundedButtonGroup .roundedButtonWrapper .roundedButton svg {
+  fill: #9cbecf;
+}
+body.theme-quartz .roundedButtonGroup .roundedButtonWrapper .roundedButton svg {
+  fill: #8ea2a4;
+}
+.roundedButtonGroup .roundedButtonWrapper .roundedButton svg {
+  stroke: #9ccef9;
+}
+body.theme-tide .roundedButtonGroup .roundedButtonWrapper .roundedButton svg {
+  stroke: #9ccef9;
+}
+body.theme-tigerlily .roundedButtonGroup .roundedButtonWrapper .roundedButton svg {
+  stroke: #9acffd;
+}
+body.theme-crickets .roundedButtonGroup .roundedButtonWrapper .roundedButton svg {
+  stroke: #92c2da;
+}
+body.theme-honeycomb .roundedButtonGroup .roundedButtonWrapper .roundedButton svg {
+  stroke: #b5b5b5;
+}
+body.theme-mint .roundedButtonGroup .roundedButtonWrapper .roundedButton svg {
+  stroke: #a7e9b3;
+}
+body.theme-overcast .roundedButtonGroup .roundedButtonWrapper .roundedButton svg {
+  stroke: #9cbecf;
+}
+body.theme-quartz .roundedButtonGroup .roundedButtonWrapper .roundedButton svg {
+  stroke: #8ea2a4;
+}
+.roundedButtonGroup .roundedButtonWrapper .roundedButton svg,
+.roundedButtonGroup .roundedButtonWrapper .roundedButton span {
+  margin: 0 2px;
+}
+.roundedButtonGroup .roundedButtonWrapper .roundedButton i {
+  line-height: 15px;
+  font-size: 15px;
+}
+.roundedButtonGroup .roundedButtonWrapper .bottomLabel {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  margin-top: 8px;
+}
+.roundedButtonGroup .roundedButtonWrapper .bottomLabel {
+  color: #91b9cd;
+}
+body.theme-tide .roundedButtonGroup .roundedButtonWrapper .bottomLabel {
+  color: #91b9cd;
+}
+body.theme-tigerlily .roundedButtonGroup .roundedButtonWrapper .bottomLabel {
+  color: #9ccdf8;
+}
+body.theme-crickets .roundedButtonGroup .roundedButtonWrapper .bottomLabel {
+  color: #8be7b5;
+}
+body.theme-honeycomb .roundedButtonGroup .roundedButtonWrapper .bottomLabel {
+  color: #fab797;
+}
+body.theme-mint .roundedButtonGroup .roundedButtonWrapper .bottomLabel {
+  color: #a7e9b3;
+}
+body.theme-overcast .roundedButtonGroup .roundedButtonWrapper .bottomLabel {
+  color: #73f2fc;
+}
+body.theme-quartz .roundedButtonGroup .roundedButtonWrapper .bottomLabel {
+  color: #d7e8fe;
+}
+.roundedButtonGroup .roundedButtonWrapper:first-child {
+  margin-left: 0;
+}
+.roundedButtonGroup .roundedButtonWrapper:first-child .roundedButton {
+  -webkit-border-bottom-left-radius: 25px;
+  -moz-border-bottom-left-radius: 25px;
+  -ms-border-bottom-left-radius: 25px;
+  -o-border-bottom-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  -webkit-border-top-left-radius: 25px;
+  -moz-border-top-left-radius: 25px;
+  -ms-border-top-left-radius: 25px;
+  -o-border-top-left-radius: 25px;
+  border-top-left-radius: 25px;
+}
+.roundedButtonGroup .roundedButtonWrapper:last-child .roundedButton {
+  -webkit-border-bottom-right-radius: 25px;
+  -moz-border-bottom-right-radius: 25px;
+  -ms-border-bottom-right-radius: 25px;
+  -o-border-bottom-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  -webkit-border-top-right-radius: 25px;
+  -moz-border-top-right-radius: 25px;
+  -ms-border-top-right-radius: 25px;
+  -o-border-top-right-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.roundedButtonGroup .roundedButtonWrapper:hover .roundedButton {
+  color: #16202b;
+}
+body.theme-tide .roundedButtonGroup .roundedButtonWrapper:hover .roundedButton {
+  color: #16202b;
+}
+body.theme-tigerlily .roundedButtonGroup .roundedButtonWrapper:hover .roundedButton {
+  color: #26333f;
+}
+body.theme-crickets .roundedButtonGroup .roundedButtonWrapper:hover .roundedButton {
+  color: #2b141b;
+}
+body.theme-honeycomb .roundedButtonGroup .roundedButtonWrapper:hover .roundedButton {
+  color: #252228;
+}
+body.theme-mint .roundedButtonGroup .roundedButtonWrapper:hover .roundedButton {
+  color: #1d232a;
+}
+body.theme-overcast .roundedButtonGroup .roundedButtonWrapper:hover .roundedButton {
+  color: #252228;
+}
+body.theme-quartz .roundedButtonGroup .roundedButtonWrapper:hover .roundedButton {
+  color: #2b2e3f;
+}
+.roundedButtonGroup .roundedButtonWrapper:hover .roundedButton {
+  background-color: #344a61;
+}
+body.theme-tide .roundedButtonGroup .roundedButtonWrapper:hover .roundedButton {
+  background-color: #344a61;
+}
+body.theme-tigerlily .roundedButtonGroup .roundedButtonWrapper:hover .roundedButton {
+  background-color: #5b3a59;
+}
+body.theme-crickets .roundedButtonGroup .roundedButtonWrapper:hover .roundedButton {
+  background-color: #344a61;
+}
+body.theme-honeycomb .roundedButtonGroup .roundedButtonWrapper:hover .roundedButton {
+  background-color: #344a61;
+}
+body.theme-mint .roundedButtonGroup .roundedButtonWrapper:hover .roundedButton {
+  background-color: #344a61;
+}
+body.theme-overcast .roundedButtonGroup .roundedButtonWrapper:hover .roundedButton {
+  background-color: #344a61;
+}
+body.theme-quartz .roundedButtonGroup .roundedButtonWrapper:hover .roundedButton {
+  background-color: #344a61;
+}
+.roundedButtonGroup .roundedButtonWrapper.active .roundedButton {
+  z-index: 2;
+}
+.roundedButtonGroup .roundedButtonWrapper.active .roundedButton {
+  background-color: #20a5d6;
+}
+body.theme-tide .roundedButtonGroup .roundedButtonWrapper.active .roundedButton {
+  background-color: #20a5d6;
+}
+body.theme-tigerlily .roundedButtonGroup .roundedButtonWrapper.active .roundedButton {
+  background-color: #fa8947;
+}
+body.theme-crickets .roundedButtonGroup .roundedButtonWrapper.active .roundedButton {
+  background-color: #d4c3c1;
+}
+body.theme-honeycomb .roundedButtonGroup .roundedButtonWrapper.active .roundedButton {
+  background-color: #cda56b;
+}
+body.theme-mint .roundedButtonGroup .roundedButtonWrapper.active .roundedButton {
+  background-color: #31b166;
+}
+body.theme-overcast .roundedButtonGroup .roundedButtonWrapper.active .roundedButton {
+  background-color: #507d80;
+}
+body.theme-quartz .roundedButtonGroup .roundedButtonWrapper.active .roundedButton {
+  background-color: #7858ce;
+}
+.roundedButtonGroup .roundedButtonWrapper.active .roundedButton {
+  border-color: #00a4d9;
+}
+body.theme-tide .roundedButtonGroup .roundedButtonWrapper.active .roundedButton {
+  border-color: #00a4d9;
+}
+body.theme-tigerlily .roundedButtonGroup .roundedButtonWrapper.active .roundedButton {
+  border-color: #ff8a3d;
+}
+body.theme-crickets .roundedButtonGroup .roundedButtonWrapper.active .roundedButton {
+  border-color: #d4aaa5;
+}
+body.theme-honeycomb .roundedButtonGroup .roundedButtonWrapper.active .roundedButton {
+  border-color: #ce9e59;
+}
+body.theme-mint .roundedButtonGroup .roundedButtonWrapper.active .roundedButton {
+  border-color: #23b15d;
+}
+body.theme-overcast .roundedButtonGroup .roundedButtonWrapper.active .roundedButton {
+  border-color: #467c80;
+}
+body.theme-quartz .roundedButtonGroup .roundedButtonWrapper.active .roundedButton {
+  border-color: #6843cc;
+}
+.roundedButtonGroup .roundedButtonWrapper.active .roundedButton {
+  color: #16202b;
+}
+body.theme-tide .roundedButtonGroup .roundedButtonWrapper.active .roundedButton {
+  color: #16202b;
+}
+body.theme-tigerlily .roundedButtonGroup .roundedButtonWrapper.active .roundedButton {
+  color: #26333f;
+}
+body.theme-crickets .roundedButtonGroup .roundedButtonWrapper.active .roundedButton {
+  color: #2b141b;
+}
+body.theme-honeycomb .roundedButtonGroup .roundedButtonWrapper.active .roundedButton {
+  color: #252228;
+}
+body.theme-mint .roundedButtonGroup .roundedButtonWrapper.active .roundedButton {
+  color: #1d232a;
+}
+body.theme-overcast .roundedButtonGroup .roundedButtonWrapper.active .roundedButton {
+  color: #252228;
+}
+body.theme-quartz .roundedButtonGroup .roundedButtonWrapper.active .roundedButton {
+  color: #2b2e3f;
+}
+.roundedButtonGroup .roundedButtonWrapper:hover .roundedButton svg,
+.roundedButtonGroup .roundedButtonWrapper.active .roundedButton svg {
+  fill: #16202b;
+}
+body.theme-tide .roundedButtonGroup .roundedButtonWrapper:hover .roundedButton svg {
+  fill: #16202b;
+}
+body.theme-tide .roundedButtonGroup .roundedButtonWrapper.active .roundedButton svg {
+  fill: #16202b;
+}
+body.theme-tigerlily .roundedButtonGroup .roundedButtonWrapper:hover .roundedButton svg {
+  fill: #26333f;
+}
+body.theme-tigerlily .roundedButtonGroup .roundedButtonWrapper.active .roundedButton svg {
+  fill: #26333f;
+}
+body.theme-crickets .roundedButtonGroup .roundedButtonWrapper:hover .roundedButton svg {
+  fill: #2b141b;
+}
+body.theme-crickets .roundedButtonGroup .roundedButtonWrapper.active .roundedButton svg {
+  fill: #2b141b;
+}
+body.theme-honeycomb .roundedButtonGroup .roundedButtonWrapper:hover .roundedButton svg {
+  fill: #252228;
+}
+body.theme-honeycomb .roundedButtonGroup .roundedButtonWrapper.active .roundedButton svg {
+  fill: #252228;
+}
+body.theme-mint .roundedButtonGroup .roundedButtonWrapper:hover .roundedButton svg {
+  fill: #1d232a;
+}
+body.theme-mint .roundedButtonGroup .roundedButtonWrapper.active .roundedButton svg {
+  fill: #1d232a;
+}
+body.theme-overcast .roundedButtonGroup .roundedButtonWrapper:hover .roundedButton svg {
+  fill: #252228;
+}
+body.theme-overcast .roundedButtonGroup .roundedButtonWrapper.active .roundedButton svg {
+  fill: #252228;
+}
+body.theme-quartz .roundedButtonGroup .roundedButtonWrapper:hover .roundedButton svg {
+  fill: #2b2e3f;
+}
+body.theme-quartz .roundedButtonGroup .roundedButtonWrapper.active .roundedButton svg {
+  fill: #2b2e3f;
+}
+.roundedButtonGroup .roundedButtonWrapper:hover .roundedButton svg,
+.roundedButtonGroup .roundedButtonWrapper.active .roundedButton svg {
+  stroke: #16202b;
+}
+body.theme-tide .roundedButtonGroup .roundedButtonWrapper:hover .roundedButton svg {
+  stroke: #16202b;
+}
+body.theme-tide .roundedButtonGroup .roundedButtonWrapper.active .roundedButton svg {
+  stroke: #16202b;
+}
+body.theme-tigerlily .roundedButtonGroup .roundedButtonWrapper:hover .roundedButton svg {
+  stroke: #26333f;
+}
+body.theme-tigerlily .roundedButtonGroup .roundedButtonWrapper.active .roundedButton svg {
+  stroke: #26333f;
+}
+body.theme-crickets .roundedButtonGroup .roundedButtonWrapper:hover .roundedButton svg {
+  stroke: #2b141b;
+}
+body.theme-crickets .roundedButtonGroup .roundedButtonWrapper.active .roundedButton svg {
+  stroke: #2b141b;
+}
+body.theme-honeycomb .roundedButtonGroup .roundedButtonWrapper:hover .roundedButton svg {
+  stroke: #252228;
+}
+body.theme-honeycomb .roundedButtonGroup .roundedButtonWrapper.active .roundedButton svg {
+  stroke: #252228;
+}
+body.theme-mint .roundedButtonGroup .roundedButtonWrapper:hover .roundedButton svg {
+  stroke: #1d232a;
+}
+body.theme-mint .roundedButtonGroup .roundedButtonWrapper.active .roundedButton svg {
+  stroke: #1d232a;
+}
+body.theme-overcast .roundedButtonGroup .roundedButtonWrapper:hover .roundedButton svg {
+  stroke: #252228;
+}
+body.theme-overcast .roundedButtonGroup .roundedButtonWrapper.active .roundedButton svg {
+  stroke: #252228;
+}
+body.theme-quartz .roundedButtonGroup .roundedButtonWrapper:hover .roundedButton svg {
+  stroke: #2b2e3f;
+}
+body.theme-quartz .roundedButtonGroup .roundedButtonWrapper.active .roundedButton svg {
+  stroke: #2b2e3f;
+}

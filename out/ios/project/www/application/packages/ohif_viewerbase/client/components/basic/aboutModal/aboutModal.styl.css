@@ -1,0 +1,92 @@
+.theme-icon-crickets,
+.theme-icon-tide,
+.theme-icon-tigerlily,
+.theme-icon-quartz,
+.theme-icon-overcast,
+.theme-icon-mint,
+.theme-icon-honeycomb {
+  display: inline-block;
+  background: url("/packages/ohif_design/assets/theme-icons.png") no-repeat;
+  overflow: hidden;
+  text-indent: -9999px;
+  text-align: left;
+}
+.theme-icon-crickets {
+  background-position: 0px 0px;
+  width: 64px;
+  height: 56px;
+}
+.theme-icon-tide {
+  background-position: 0px -56px;
+  width: 64px;
+  height: 54px;
+}
+.theme-icon-tigerlily {
+  background-position: 0px -110px;
+  width: 62px;
+  height: 61px;
+}
+.theme-icon-quartz {
+  background-position: 0px -171px;
+  width: 59px;
+  height: 64px;
+}
+.theme-icon-overcast {
+  background-position: 0px -235px;
+  width: 58px;
+  height: 37px;
+}
+.theme-icon-mint {
+  background-position: 0px -272px;
+  width: 57px;
+  height: 61px;
+}
+.theme-icon-honeycomb {
+  background-position: 0px -333px;
+  width: 50px;
+  height: 58px;
+}
+#aboutModal .logo .logoText {
+  display: inline-block;
+  font-family: "Sanchez";
+  font-weight: 300;
+  font-size: 20pt;
+  line-height: 45px;
+  text-decoration: none;
+}
+#aboutModal .logo .logoText {
+  color: #fff;
+}
+body.theme-tide #aboutModal .logo .logoText {
+  color: #fff;
+}
+body.theme-tigerlily #aboutModal .logo .logoText {
+  color: #fff;
+}
+body.theme-crickets #aboutModal .logo .logoText {
+  color: #fff;
+}
+body.theme-honeycomb #aboutModal .logo .logoText {
+  color: #fff;
+}
+body.theme-mint #aboutModal .logo .logoText {
+  color: #fff;
+}
+body.theme-overcast #aboutModal .logo .logoText {
+  color: #fff;
+}
+body.theme-quartz #aboutModal .logo .logoText {
+  color: #fff;
+}
+#aboutModal .logo .logoImage {
+  width: 45px;
+  height: 45px;
+  margin: 0 1rem;
+}
+#aboutModal .forkOnGithub {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0;
+  cursor: pointer;
+}

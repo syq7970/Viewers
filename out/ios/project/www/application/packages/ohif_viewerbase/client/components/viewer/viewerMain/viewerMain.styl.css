@@ -1,0 +1,201 @@
+.theme-icon-crickets,
+.theme-icon-tide,
+.theme-icon-tigerlily,
+.theme-icon-quartz,
+.theme-icon-overcast,
+.theme-icon-mint,
+.theme-icon-honeycomb {
+  display: inline-block;
+  background: url("/packages/ohif_design/assets/theme-icons.png") no-repeat;
+  overflow: hidden;
+  text-indent: -9999px;
+  text-align: left;
+}
+.theme-icon-crickets {
+  background-position: 0px 0px;
+  width: 64px;
+  height: 56px;
+}
+.theme-icon-tide {
+  background-position: 0px -56px;
+  width: 64px;
+  height: 54px;
+}
+.theme-icon-tigerlily {
+  background-position: 0px -110px;
+  width: 62px;
+  height: 61px;
+}
+.theme-icon-quartz {
+  background-position: 0px -171px;
+  width: 59px;
+  height: 64px;
+}
+.theme-icon-overcast {
+  background-position: 0px -235px;
+  width: 58px;
+  height: 37px;
+}
+.theme-icon-mint {
+  background-position: 0px -272px;
+  width: 57px;
+  height: 61px;
+}
+.theme-icon-honeycomb {
+  background-position: 0px -333px;
+  width: 50px;
+  height: 58px;
+}
+#viewer {
+  height: calc(100% - 40px);
+}
+#viewer>.loadingTextDiv {
+  font-size: 30px;
+  height: 100%;
+  line-height: calc(100vh - 40px);
+}
+#viewer>.loadingTextDiv {
+  color: #91b9cd;
+}
+body.theme-tide #viewer>.loadingTextDiv {
+  color: #91b9cd;
+}
+body.theme-tigerlily #viewer>.loadingTextDiv {
+  color: #9ccdf8;
+}
+body.theme-crickets #viewer>.loadingTextDiv {
+  color: #8be7b5;
+}
+body.theme-honeycomb #viewer>.loadingTextDiv {
+  color: #fab797;
+}
+body.theme-mint #viewer>.loadingTextDiv {
+  color: #a7e9b3;
+}
+body.theme-overcast #viewer>.loadingTextDiv {
+  color: #73f2fc;
+}
+body.theme-quartz #viewer>.loadingTextDiv {
+  color: #d7e8fe;
+}
+.viewerMain {
+  width: 100%;
+  height: 100%;
+}
+.viewerMain #layoutManagerTarget {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.viewerMain #layoutManagerTarget #imageViewerViewports .viewportContainer {
+  float: left;
+  outline: 0;
+}
+.viewerMain #layoutManagerTarget #imageViewerViewports .viewportContainer {
+  border: 1px solid #3c5d80;
+}
+body.theme-tide .viewerMain #layoutManagerTarget #imageViewerViewports .viewportContainer {
+  border: 1px solid #3c5d80;
+}
+body.theme-tigerlily .viewerMain #layoutManagerTarget #imageViewerViewports .viewportContainer {
+  border: 1px solid #744b71;
+}
+body.theme-crickets .viewerMain #layoutManagerTarget #imageViewerViewports .viewportContainer {
+  border: 1px solid #3c5d80;
+}
+body.theme-honeycomb .viewerMain #layoutManagerTarget #imageViewerViewports .viewportContainer {
+  border: 1px solid #3c5d80;
+}
+body.theme-mint .viewerMain #layoutManagerTarget #imageViewerViewports .viewportContainer {
+  border: 1px solid #3c5d80;
+}
+body.theme-overcast .viewerMain #layoutManagerTarget #imageViewerViewports .viewportContainer {
+  border: 1px solid #3c5d80;
+}
+body.theme-quartz .viewerMain #layoutManagerTarget #imageViewerViewports .viewportContainer {
+  border: 1px solid #3c5d80;
+}
+.viewerMain #layoutManagerTarget #imageViewerViewports .viewportContainer:hover,
+.viewerMain #layoutManagerTarget #imageViewerViewports .viewportContainer.active,
+.viewerMain #layoutManagerTarget #imageViewerViewports .viewportContainer:hover.active {
+  outline: 0;
+}
+.viewerMain #layoutManagerTarget #imageViewerViewports .viewportContainer:hover {
+  border: 1px solid #44626f;
+}
+body.theme-tide .viewerMain #layoutManagerTarget #imageViewerViewports .viewportContainer:hover {
+  border: 1px solid #44626f;
+}
+body.theme-tigerlily .viewerMain #layoutManagerTarget #imageViewerViewports .viewportContainer:hover {
+  border: 1px solid #875a86;
+}
+body.theme-crickets .viewerMain #layoutManagerTarget #imageViewerViewports .viewportContainer:hover {
+  border: 1px solid #537b76;
+}
+body.theme-honeycomb .viewerMain #layoutManagerTarget #imageViewerViewports .viewportContainer:hover {
+  border: 1px solid #623337;
+}
+body.theme-mint .viewerMain #layoutManagerTarget #imageViewerViewports .viewportContainer:hover {
+  border: 1px solid #214529;
+}
+body.theme-overcast .viewerMain #layoutManagerTarget #imageViewerViewports .viewportContainer:hover {
+  border: 1px solid #404040;
+}
+body.theme-quartz .viewerMain #layoutManagerTarget #imageViewerViewports .viewportContainer:hover {
+  border: 1px solid #885b86;
+}
+.viewerMain #layoutManagerTarget #imageViewerViewports .viewportContainer.active,
+.viewerMain #layoutManagerTarget #imageViewerViewports .viewportContainer:hover.active {
+  border: 1px solid #00a4d9;
+}
+body.theme-tide .viewerMain #layoutManagerTarget #imageViewerViewports .viewportContainer.active {
+  border: 1px solid #00a4d9;
+}
+body.theme-tide .viewerMain #layoutManagerTarget #imageViewerViewports .viewportContainer:hover.active {
+  border: 1px solid #00a4d9;
+}
+body.theme-tigerlily .viewerMain #layoutManagerTarget #imageViewerViewports .viewportContainer.active {
+  border: 1px solid #ff8a3d;
+}
+body.theme-tigerlily .viewerMain #layoutManagerTarget #imageViewerViewports .viewportContainer:hover.active {
+  border: 1px solid #ff8a3d;
+}
+body.theme-crickets .viewerMain #layoutManagerTarget #imageViewerViewports .viewportContainer.active {
+  border: 1px solid #d4aaa5;
+}
+body.theme-crickets .viewerMain #layoutManagerTarget #imageViewerViewports .viewportContainer:hover.active {
+  border: 1px solid #d4aaa5;
+}
+body.theme-honeycomb .viewerMain #layoutManagerTarget #imageViewerViewports .viewportContainer.active {
+  border: 1px solid #ce9e59;
+}
+body.theme-honeycomb .viewerMain #layoutManagerTarget #imageViewerViewports .viewportContainer:hover.active {
+  border: 1px solid #ce9e59;
+}
+body.theme-mint .viewerMain #layoutManagerTarget #imageViewerViewports .viewportContainer.active {
+  border: 1px solid #23b15d;
+}
+body.theme-mint .viewerMain #layoutManagerTarget #imageViewerViewports .viewportContainer:hover.active {
+  border: 1px solid #23b15d;
+}
+body.theme-overcast .viewerMain #layoutManagerTarget #imageViewerViewports .viewportContainer.active {
+  border: 1px solid #467c80;
+}
+body.theme-overcast .viewerMain #layoutManagerTarget #imageViewerViewports .viewportContainer:hover.active {
+  border: 1px solid #467c80;
+}
+body.theme-quartz .viewerMain #layoutManagerTarget #imageViewerViewports .viewportContainer.active {
+  border: 1px solid #6843cc;
+}
+body.theme-quartz .viewerMain #layoutManagerTarget #imageViewerViewports .viewportContainer:hover.active {
+  border: 1px solid #6843cc;
+}
+.viewerMain #layoutManagerTarget #imageViewerViewports .viewportContainer .removable {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}

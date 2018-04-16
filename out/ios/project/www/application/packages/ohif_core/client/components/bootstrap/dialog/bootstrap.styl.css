@@ -1,0 +1,14 @@
+.modal .modal-header:empty,
+.modal .modal-footer:empty {
+  display: none;
+}
+.modal .modal-blank .modal-content {
+  border: 0;
+}
+.modal .modal-blank .modal-header,
+.modal .modal-blank .modal-footer {
+  display: none;
+}
+.modal .modal-blank .modal-body {
+  padding: 0;
+}

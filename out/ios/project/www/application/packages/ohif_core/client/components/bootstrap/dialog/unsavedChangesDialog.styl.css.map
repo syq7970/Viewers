@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/packages/ohif:core/client/components/bootstrap/dialog/unsavedChangesDialog.styl"],"names":[],"mappings":"AAEE;EACE,OAAO,MAAP;;AAEA;EACI,YAAY,OAAZ","sourcesContent":[".modal.unsavedChangesDialog\n\n  .modal-dialog\n    width: 400px\n\n    .modal-footer\n        border-top: 0 none\n"]}

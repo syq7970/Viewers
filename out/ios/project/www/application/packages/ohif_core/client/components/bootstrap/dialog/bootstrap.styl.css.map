@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/packages/ohif:core/client/components/bootstrap/dialog/bootstrap.styl"],"names":[],"mappings":"AACE;AAAqB;EACnB,SAAS,KAAT;;AAIA;EACE,QAAQ,EAAR;;AAEF;AAAe;EACb,SAAS,KAAT;;AAEF;EACE,SAAS,EAAT","sourcesContent":[".modal\n  .modal-header:empty, .modal-footer:empty\n    display: none\n\n  .modal-blank\n\n    .modal-content\n      border: 0\n\n    .modal-header, .modal-footer\n      display: none\n\n    .modal-body\n      padding: 0\n"]}

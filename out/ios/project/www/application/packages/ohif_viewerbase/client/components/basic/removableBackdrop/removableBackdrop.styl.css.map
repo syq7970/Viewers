@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/packages/ohif:viewerbase/client/components/basic/removableBackdrop/removableBackdrop.styl"],"names":[],"mappings":"AAAA;EACE,UAAU,MAAV;EACA,KAAK,EAAL;EACA,OAAO,EAAP;EACA,QAAQ,EAAR;EACA,MAAM,EAAN;EACA,SAAS,GAAT;EACA,kBAAkB,YAAlB","sourcesContent":[".removableBackdrop\n  position: fixed\n  top: 0\n  right: 0\n  bottom: 0\n  left: 0\n  z-index: 50\n  background-color: transparent\n  "]}

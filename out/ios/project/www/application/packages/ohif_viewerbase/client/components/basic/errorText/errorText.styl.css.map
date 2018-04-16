@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/packages/ohif:viewerbase/client/components/basic/errorText/errorText.styl"],"names":[],"mappings":"AAAA;EACE,aAAa,IAAb;EACA,SAAS,KAAT;EACA,YAAY,OAAZ;EACA,OAAO,KAAP","sourcesContent":[".errorTextDiv\n  font-weight: 300\n  padding: 30px\n  text-align: center\n  color: #ffffff\n"]}
