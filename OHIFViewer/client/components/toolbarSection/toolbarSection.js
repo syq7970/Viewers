@@ -40,7 +40,7 @@ Template.toolbarSection.helpers({
                 svgLink: '/packages/ohif_viewerbase/assets/icons.svg#icon-studies',
                 svgWidth: 15,
                 svgHeight: 13,
-                bottomLabel: '列表'
+                bottomLabel: 'Series'
             }]
         };
     },
@@ -158,49 +158,49 @@ Template.toolbarSection.helpers({
 
         buttonData.push({
             id: 'zoom',
-            title: '缩放',
+            title: 'Zoom',
             classes: 'imageViewerTool',
             svgLink: '/packages/ohif_viewerbase/assets/icons.svg#icon-tools-zoom'
         });
 
         buttonData.push({
             id: 'wwwc',
-            title: '窗位',
+            title: 'Levels',
             classes: 'imageViewerTool',
             svgLink: '/packages/ohif_viewerbase/assets/icons.svg#icon-tools-levels'
         });
 
         buttonData.push({
             id: 'pan',
-            title: '移动',
+            title: 'Pan',
             classes: 'imageViewerTool',
             svgLink: '/packages/ohif_viewerbase/assets/icons.svg#icon-tools-pan'
         });
 
         buttonData.push({
             id: 'length',
-            title: '长度',
+            title: 'Length',
             classes: 'imageViewerTool toolbarSectionButton',
             svgLink: '/packages/ohif_viewerbase/assets/icons.svg#icon-tools-measure-temp'
         });
 
         buttonData.push({
             id: 'annotate',
-            title: '注释',
+            title: 'Annotate',
             classes: 'imageViewerTool',
             svgLink: '/packages/ohif_viewerbase/assets/icons.svg#icon-tools-measure-non-target'
         });
 
         buttonData.push({
             id: 'angle',
-            title: '角度',
+            title: 'Angle',
             classes: 'imageViewerTool',
             iconClasses: 'fa fa-angle-left'
         });
 
         buttonData.push({
             id: 'resetViewport',
-            title: '重置',
+            title: 'Reset',
             classes: 'imageViewerCommand',
             iconClasses: 'fa fa-undo'
         });
@@ -209,14 +209,14 @@ Template.toolbarSection.helpers({
 
             buttonData.push({
                 id: 'previousDisplaySet',
-                title: '上一页',
+                title: 'Previous',
                 classes: 'imageViewerCommand',
                 iconClasses: 'fa fa-toggle-up fa-fw'
             });
 
             buttonData.push({
                 id: 'nextDisplaySet',
-                title: '下一页',
+                title: 'Next',
                 classes: 'imageViewerCommand',
                 iconClasses: 'fa fa-toggle-down fa-fw'
             });
@@ -248,7 +248,7 @@ Template.toolbarSection.helpers({
 
         buttonData.push({
             id: 'toggleMore',
-            title: '更多',
+            title: 'More',
             classes: 'rp-x-1 rm-l-3',
             svgLink: '/packages/ohif_viewerbase/assets/icons.svg#icon-tools-more',
             subTools: extraTools
