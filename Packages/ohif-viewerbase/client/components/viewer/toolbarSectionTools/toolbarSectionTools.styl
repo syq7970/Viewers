@@ -3,7 +3,17 @@
 $distance = 10px
 
 .toolbarSectionTools
-  position: relative
+  &::-webkit-scrollbar
+        display none
+  position: absolute
+  overflow:scroll;
+  white-space: nowrap;
+  width: 80%
+  height :70px
+  display: inline-block
+  
+.toolbarSectionButton
+  
 
   .toolbarSectionButton>.buttonLabel i.expanded-status
     text-align: center

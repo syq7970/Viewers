@@ -1,0 +1,11 @@
+//
+//  module.modulemap
+//  CRDICOMViewer
+//
+//  Created by 苏依泉 on 2018/4/16.
+//
+
+module Cordova {
+  header "../CordovaLib/Classes/CDV.h"
+  export *
+}
