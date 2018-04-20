@@ -1,2 +1,0 @@
-)]}'
-{"version":3,"sources":["meteor://💻app/packages/ohif:hanging-protocols/client/components/matchedProtocols/matchedProtocols.styl"],"names":[],"mappings":"AAGM;EACE,QAAQ,QAAR;;AAEA;EACE,OAAO,QAAP;;AAEJ;EACE,SAAS,MAAT;EACA,SAAS,SAAT;EACA,OAAO,KAAP;EACA,aAAa,WAAb","sourcesContent":["#matchedProtocols\n  ul.dropdown-menu\n    li\n      a\n        cursor: pointer\n\n        &:selected\n          color: #4fbfff\n\n      h5\n        display: block;\n        padding: 3px 20px;\n        clear: both;\n        line-height: 1.42857143;"]}
